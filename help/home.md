@@ -42,7 +42,7 @@ BDRは、ブラウザーとメールのプラグインを使用して、CRMやOu
 
 ::::landing-cards-container
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 基本を学ぶ
 
@@ -52,7 +52,7 @@ BDRは、ブラウザーとメールのプラグインを使用して、CRMやOu
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 見込み客
 
@@ -62,7 +62,7 @@ BDRは、ブラウザーとメールのプラグインを使用して、CRMやOu
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 アカウント
 
@@ -72,7 +72,7 @@ BDRは、ブラウザーとメールのプラグインを使用して、CRMやOu
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 アウトバウンドワークフロー
 
@@ -82,7 +82,7 @@ AIを活用してパーソナライズされたメールで、目標主導型の
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 タスク
 
@@ -92,7 +92,7 @@ AIを活用してパーソナライズされたメールで、目標主導型の
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 パフォーマンス
 
@@ -102,7 +102,7 @@ AIを活用してパーソナライズされたメールで、目標主導型の
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 ナレッジセンター
 
@@ -112,7 +112,7 @@ AIのアウトリーチとマテリアル内の支援を基盤とするプレイ
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 統合
 
@@ -122,7 +122,7 @@ SalesforceやMicrosoft Dynamics 365と接続してフィールドをマッピン
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 プロファイル設定
 
@@ -132,7 +132,7 @@ SalesforceやMicrosoft Dynamics 365と接続してフィールドをマッピン
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 ユーザーの役割と権限
 
@@ -142,7 +142,7 @@ SalesforceやMicrosoft Dynamics 365と接続してフィールドをマッピン
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 AI チャット
 

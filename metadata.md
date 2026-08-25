@@ -6,7 +6,7 @@ product_v2:
 usetq: true
 type: Documentation
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/sales-qualifier.en
+git-repo: https://github.com/AdobeDocs/sales-qualifier.ja-JP
 index: true
 source-git-commit: 28234eb7a4d483adf7e0a08f2df2a385bd4d088d
 workflow-type: tm+mt
