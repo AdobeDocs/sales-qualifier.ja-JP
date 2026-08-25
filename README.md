@@ -19,7 +19,7 @@ ht-degree: 19%
 
 Adobeの社員でない場合は、コミュニティ投稿を送信できます。 ドキュメントチームはパブリックリポジトリ内のコントリビューションを確認し、承認された変更をAdobeの内部システムと同期させます。
 
-Adobeの社員の場合は、プライベート [Adobe GitHub リポジトリ ](https://git.corp.adobe.com/AdobeDocs/)に直接投稿してください。 詳しくは、Adobe従業員向けのAdobe Experience League オーサリングガイドを参照してください。
+Adobeの社員の場合は、プライベート [Adobe GitHub リポジトリ &#x200B;](https://git.corp.adobe.com/AdobeDocs/)に直接投稿してください。 詳しくは、Adobe従業員向けのAdobe Experience League オーサリングガイドを参照してください。
 
 ## 外部コントリビューター
 
@@ -31,7 +31,7 @@ Adobeの社員の場合は、プライベート [Adobe GitHub リポジトリ ](
 1. **このコンテンツは役に立ちましたか？** ページ下部のバナーで、**詳細なフィードバックオプション**&#x200B;を選択します。
 1. 「**編集を提案**」を選択し、変更を加えてプルリクエスト（PR）を送信します。
 
-   詳しくは、[Adobe Docs コントリビューターガイド ](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction)を参照してください。
+   詳しくは、[Adobe Docs コントリビューターガイド &#x200B;](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction)を参照してください。
 
 このリポジトリ内のドキュメントやコード例に対してユーザが送信する軽微な修正や補足説明には、アドビの利用条件が適用されます。
 
@@ -47,11 +47,11 @@ Adobeの社員の場合は、プライベート [Adobe GitHub リポジトリ ](
 
 基本的な編集にはGitHub インターフェイスを使用します。 大きな貢献の場合は、リポジトリをフォークします。
 
-詳しくは、[Adobe Docs コントリビューターガイド ](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction)を参照してください。
+詳しくは、[Adobe Docs コントリビューターガイド &#x200B;](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction)を参照してください。
 
 ## 内部コントリビューター
 
-Adobe テクニカルライター、プログラムマネージャー、または技術記事を作成する製品開発者の場合は、[ プライベートリポジトリ ](https://git.corp.adobe.com/AdobeDocs)を使用します。
+Adobe テクニカルライター、プログラムマネージャー、または技術記事を作成する製品開発者の場合は、[&#x200B; プライベートリポジトリ &#x200B;](https://git.corp.adobe.com/AdobeDocs)を使用します。
 
 ## トピックの形式設定
 

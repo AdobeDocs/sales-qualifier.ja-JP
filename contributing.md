@@ -19,7 +19,7 @@ ht-degree: 5%
 
 ## 貢献者ガイド
 
-[Adobe Docs コントリビューターガイド ](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction)を参照してください。
+[Adobe Docs コントリビューターガイド &#x200B;](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction)を参照してください。
 
 ## 質問する
 
@@ -36,7 +36,7 @@ Adobe CLAは1回のみ送信してください。
 ## コードレビュー
 
 プルリクエストとして変更を送信します。 プロジェクトコミッターは、各プルリクエストをレビューします。
-詳しくは、[ プルリクエストについて](https://help.github.com/ja/articles/about-pull-requests/)を参照してください。
+詳しくは、[&#x200B; プルリクエストについて](https://help.github.com/ja/articles/about-pull-requests/)を参照してください。
 
 ## コミッターになる
 
@@ -47,4 +47,4 @@ Adobe CLAは1回のみ送信してください。
 
 ## セキュリティの問題
 
-この問題トラッカーのセキュリティ問題を報告しないでください。 代わりに、[Adobe セキュリティ ](https://helpx.adobe.com/jp/security/alertus.html)にお問い合わせください。
+この問題トラッカーのセキュリティ問題を報告しないでください。 代わりに、[Adobe セキュリティ &#x200B;](https://helpx.adobe.com/jp/security/alertus.html)にお問い合わせください。

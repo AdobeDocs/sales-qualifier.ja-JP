@@ -4,9 +4,16 @@ description: アプリケーションの使用を開始する前に、ユーザ�
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/-nfmFwZyZFUZhm-uQUjSyTvrORuqJgKSKnENWYtvubs'
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
 workflow-type: tm+mt
 source-wordcount: 1054
@@ -46,14 +53,14 @@ Adobe Admin Consoleの2つのユーザーグループがSales Qualifierへのア
 
 ### Sales Qualifier管理者
 
-CRM接続、[ ナレッジセンター](knowledge-center.md)、およびグローバルメールオプトアウト設定を設定する管理者も、`Sales Qualifier Admins` ユーザーグループに属している必要があります。
+CRM接続、[&#x200B; ナレッジセンター](knowledge-center.md)、およびグローバルメールオプトアウト設定を設定する管理者も、`Sales Qualifier Admins` ユーザーグループに属している必要があります。
 
 1. Adobe Admin Consoleで、**[!UICONTROL Users]** > **[!UICONTROL User groups]** > **[!UICONTROL New user group]**&#x200B;を選択します。
 1. グループ名に「`Sales Qualifier Admins`」と入力し、**[!UICONTROL 保存]**&#x200B;を選択します。
 1. **[!UICONTROL ユーザー]**&#x200B;を開き、**[!UICONTROL ユーザーを追加]**&#x200B;を選択し、管理者を追加します。
 1. 各管理者が`Sales Qualifier` グループのメンバーであることを確認してください。
 
-両方のグループのメンバーシップにより、左側のナビゲーションの&#x200B;**[!UICONTROL 管理]**&#x200B;の下に&#x200B;**[!UICONTROL 管理設定]**&#x200B;が表示されます。 標準ユーザーは、管理者が設定したフィールド、フィルター、プレイブックを使用して作業します。 設定されたオプトアウトフッターは、アウトバウンドメールに自動的に適用されます。 標準ユーザーはこれらの設定を変更できません。 詳しくは、[ ユーザーの役割と権限](user-roles-permissions.md)を参照してください。
+両方のグループのメンバーシップにより、左側のナビゲーションの&#x200B;**[!UICONTROL 管理]**&#x200B;の下に&#x200B;**[!UICONTROL 管理設定]**&#x200B;が表示されます。 標準ユーザーは、管理者が設定したフィールド、フィルター、プレイブックを使用して作業します。 設定されたオプトアウトフッターは、アウトバウンドメールに自動的に適用されます。 標準ユーザーはこれらの設定を変更できません。 詳しくは、[&#x200B; ユーザーの役割と権限](user-roles-permissions.md)を参照してください。
 
 >[!NOTE]
 >
@@ -175,5 +182,5 @@ CRMを接続したら、インバウンドマッピングを設定して、Sales
 >[!MORELIKETHIS]
 >
 >* [見込み客](prospects.md)
->* [ アウトバウンドワークフロー](outbound-workflows.md)
->* [ ユーザーの役割と権限](user-roles-permissions.md)
+>* [&#x200B; アウトバウンドワークフロー](outbound-workflows.md)
+>* [&#x200B; ユーザーの役割と権限](user-roles-permissions.md)

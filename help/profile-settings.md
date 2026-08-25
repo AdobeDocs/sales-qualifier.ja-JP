@@ -4,8 +4,11 @@ description: Sales Qualifier プロファイル設定でメール接続、署名
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/juP3sddkmc-nSTcTEKGWolbCwNWDgSA0yr6XK1X-w94'
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: e7de3a1e28cb8268b58f1ab1ec10394035bdfd74
 workflow-type: tm+mt
 source-wordcount: 375
@@ -23,13 +26,13 @@ ht-degree: 3%
 「**[!UICONTROL メール設定]**」タブで、メール接続を設定します。
 
 * **[!UICONTROL メール接続]** – 「**[!UICONTROL Connect Outlook]**」を選択し、Microsoftのサインインプロセスに従います。 必要に応じて、承認するアクセスと管理者の承認パスについては、[Connect Outlook](integrations.md#connect-outlook)を参照してください。
-* **[!UICONTROL 電子メール署名]** – 生成された電子メールで使用される署名を追加または更新します。 見込み客が時間を予約できるように、[ ミーティング予約](outbound-workflows.md#meeting-booking)のリンクを含めます。
+* **[!UICONTROL 電子メール署名]** – 生成された電子メールで使用される署名を追加または更新します。 見込み客が時間を予約できるように、[&#x200B; ミーティング予約](outbound-workflows.md#meeting-booking)のリンクを含めます。
 
 ### メール作成コンテキスト
 
 電子メールのトーン、構造、スタイルを設定するには、**[!UICONTROL 電子メール作成コンテキスト]**&#x200B;を使用して、電子メールの一貫性を保ちます。
 
-コンテキストは、**[!UICONTROL メール作成コンテキスト]**領域のプレーンマークダウンに書きます。
+コンテキストは、**[!UICONTROL メール作成コンテキスト]**&#x200B;領域のプレーンマークダウンに書きます。
 これを使用して、次の項目を定義します。
 
 * トーンとボイス
@@ -76,6 +79,6 @@ Sales Qualifierは、接続されたカレンダーから、イベントの詳�
 
 >[!MORELIKETHIS]
 >
->* [ アウトバウンドワークフロー](outbound-workflows.md)
+>* [&#x200B; アウトバウンドワークフロー](outbound-workflows.md)
 >* [統合](integrations.md)
 >* [タスク](tasks.md)

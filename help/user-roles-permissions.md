@@ -4,9 +4,15 @@ description: Sales Qualifier ユーザーグループがアプリケーション
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/9X9DYGMvLGcPG--G6rHcDEk91hdT9-XYc9wbiL2Qoww'
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: d6a8091bd893ea80a26edfc1526646aec037223f
 workflow-type: tm+mt
 source-wordcount: 246
@@ -40,7 +46,7 @@ Sales Qualifierでは、2つの必要なユーザーグループを使用して�
 | --- | --- | --- |
 | CRM接続とフィールドマッピング | [統合](integrations.md#map-crm-fields-inbound-mapping) | 見込み顧客またはアカウントに表示されるCRM フィールドと、フィルターとして使用できるフィールドを決定します。 |
 | グローバルメールオプトアウト | [統合](integrations.md#configure-global-email-opt-out) | すべての送信メールに登録解除フッターを追加します。 |
-| ナレッジセンターとプレイブック | [ ナレッジセンター](knowledge-center.md) | 会社のプレイブックをアウトバウンドプロンプトと[AI チャット ](ai-assistant.md)で利用できるようにします。 |
+| ナレッジセンターとプレイブック | [&#x200B; ナレッジセンター](knowledge-center.md) | 会社のプレイブックをアウトバウンドプロンプトと[AI チャット &#x200B;](ai-assistant.md)で利用できるようにします。 |
 | アクティビティの同期 | [統合](integrations.md#configure-activity-sync-outbound-mapping) | Sales Qualifier アウトリーチアクティビティをCRMに表示するかどうかを指定します。 |
 
 標準ユーザーはこれらの設定を使用できますが、変更することはできません。 必要なフィルター、プレイブック参照、またはCRM フィールドが見つからない場合は、管理者にお問い合わせください。
@@ -49,4 +55,4 @@ Sales Qualifierでは、2つの必要なユーザーグループを使用して�
 >
 >* [基本を学ぶ](getting-started.md)
 >* [統合](integrations.md)
->* [ ナレッジセンター](knowledge-center.md)
+>* [&#x200B; ナレッジセンター](knowledge-center.md)

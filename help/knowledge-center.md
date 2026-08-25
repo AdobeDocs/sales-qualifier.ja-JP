@@ -4,9 +4,17 @@ description: Sales Qualifierナレッジセンターで、営業資料のアッ�
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/5dpADHs-37gBKs-d1lf2rFLP-bJJQs-06kGCzhgGeRw'
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
 workflow-type: tm+mt
 source-wordcount: 237
@@ -38,13 +46,13 @@ ht-degree: 0%
 
 プレイブックの準備ができたら、担当者は次の2つの場所で使用できます。
 
-* **送信メールプロンプト** - タッチポイントプロンプトで、ドキュメントに名前を付け、使用するコンテキストを記述します。 例えば、`Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`と入力します。 [ タッチポイントの生成とレビュー](outbound-workflows.md#step-3-generate-and-review-touchpoints)を参照してください。
-* **AI チャット**：質問のナレッジセンターを参照してください。 例えば、`From the Knowledge Center, help me position our security solution for ABC Corp before tomorrow's call`と入力します。 [AI チャット ](ai-assistant.md)を参照してください。
+* **送信メールプロンプト** - タッチポイントプロンプトで、ドキュメントに名前を付け、使用するコンテキストを記述します。 例えば、`Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`と入力します。 [&#x200B; タッチポイントの生成とレビュー](outbound-workflows.md#step-3-generate-and-review-touchpoints)を参照してください。
+* **AI チャット**：質問のナレッジセンターを参照してください。 例えば、`From the Knowledge Center, help me position our security solution for ABC Corp before tomorrow's call`と入力します。 [AI チャット &#x200B;](ai-assistant.md)を参照してください。
 
 どちらの場合も、生成されたコンテンツは、一般的な調査ではなく、プレイブックのメッセージを反映します。
 
 >[!MORELIKETHIS]
 >
->* [ アウトバウンドワークフロー](outbound-workflows.md)
->* [AI チャット ](ai-assistant.md)
->* [ ユーザーの役割と権限](user-roles-permissions.md)
+>* [&#x200B; アウトバウンドワークフロー](outbound-workflows.md)
+>* [AI チャット &#x200B;](ai-assistant.md)
+>* [&#x200B; ユーザーの役割と権限](user-roles-permissions.md)

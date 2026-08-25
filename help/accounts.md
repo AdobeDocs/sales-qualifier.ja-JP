@@ -3,9 +3,13 @@ title: Sales Qualifierのアカウント
 description: AIを利用したリサーチ、最新のニュース、機会、最もエンゲージメントの高い連絡先など、Sales Qualifierのアカウントインテリジェンスを確認して、アウトリーチの優先順位を決定する方法を説明します。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
 workflow-type: tm+mt
 source-wordcount: 632
@@ -63,7 +67,7 @@ Sales Qualifierは、見込み客のCRM レコードからアカウントを特�
 
 **[!UICONTROL トップメンバー]** ビューから、連絡先に対して次のいずれかのアクションを実行します。
 
-* **[!UICONTROL エンゲージメントプランに追加]** - [ エンゲージメントプラン ](outbound-workflows.md)に連絡先を登録します。
+* **[!UICONTROL エンゲージメントプランに追加]** - [&#x200B; エンゲージメントプラン &#x200B;](outbound-workflows.md)に連絡先を登録します。
 * **[!UICONTROL Add to Marketo campaign]**：取引先責任者の[!DNL Marketo] キャンペーンをトリガーします。
 
 ## アカウントを調査
@@ -83,10 +87,10 @@ Sales Qualifierは、見込み客のCRM レコードからアカウントを特�
 * 一般的なプレゼンテーションではなく、最近のニュース記事や調査シグナルを参考に、開封率を適切なものにしましょう。
 * オープン機会とパイプライン値をチェックして、アカウントの優先順位を決定します。
 * **[!UICONTROL トップメンバー]**&#x200B;を使用して連絡先を特定し、エンゲージメントプランに登録します。
-* 電話をかける前に、[AI チャット ](ai-assistant.md)にアカウントのポジショニングを開発するように依頼します。
+* 電話をかける前に、[AI チャット &#x200B;](ai-assistant.md)にアカウントのポジショニングを開発するように依頼します。
 
 >[!MORELIKETHIS]
 >
 >* [見込み客](prospects.md)
->* [ アウトバウンドワークフロー](outbound-workflows.md)
->* [AI チャット ](ai-assistant.md)
+>* [&#x200B; アウトバウンドワークフロー](outbound-workflows.md)
+>* [AI チャット &#x200B;](ai-assistant.md)

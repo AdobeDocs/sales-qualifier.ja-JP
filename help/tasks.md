@@ -4,8 +4,11 @@ description: Sales Qualifierのタスクキューで、手作業によるアウ�
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/MbTN1r-ARrW-XYtdIS-KZT7K1Lk-B3GihT8iXL60GrQ'
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
 workflow-type: tm+mt
 source-wordcount: 900
@@ -94,7 +97,7 @@ ht-degree: 0%
 
 ## エージェントの提案
 
-「**[!UICONTROL エージェントの提案]**」タブには、エンゲージメントプランのターゲティング条件に一致し、登録に推奨される見込み顧客が一覧表示されます。 レコメンデーションを有効にするには、[ アウトバウンドワークフロー](outbound-workflows.md)を参照してください。
+「**[!UICONTROL エージェントの提案]**」タブには、エンゲージメントプランのターゲティング条件に一致し、登録に推奨される見込み顧客が一覧表示されます。 レコメンデーションを有効にするには、[&#x200B; アウトバウンドワークフロー](outbound-workflows.md)を参照してください。
 
 推奨を選択して、作業パネルでレビューします。
 
@@ -110,7 +113,7 @@ ht-degree: 0%
 
 ## エンゲージメントプランからタスクを完了
 
-エンゲージメントプランの&#x200B;**[!UICONTROL エンゲージメント済み見込み顧客]** ビューでは、手動タッチポイントが&#x200B;**[!UICONTROL 完了としてマーク]**、**[!UICONTROL スキップ]**、メモのオプションを提供します。 タスクを完了すると、**[!UICONTROL タスク]** ページのステータスも更新されます。 [ アウトバウンドワークフロー](outbound-workflows.md)を参照してください。
+エンゲージメントプランの&#x200B;**[!UICONTROL エンゲージメント済み見込み顧客]** ビューでは、手動タッチポイントが&#x200B;**[!UICONTROL 完了としてマーク]**、**[!UICONTROL スキップ]**、メモのオプションを提供します。 タスクを完了すると、**[!UICONTROL タスク]** ページのステータスも更新されます。 [&#x200B; アウトバウンドワークフロー](outbound-workflows.md)を参照してください。
 
 ## 空の状態
 
@@ -120,6 +123,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ アウトバウンドワークフロー](outbound-workflows.md)
->* [ アウトバウンドパフォーマンス ](performance.md)
+>* [&#x200B; アウトバウンドワークフロー](outbound-workflows.md)
+>* [&#x200B; アウトバウンドパフォーマンス &#x200B;](performance.md)
 >* [見込み客](prospects.md)
