@@ -1,19 +1,15 @@
 ---
 title: Sales Qualifierの見込み客
-description: Sales Qualifierで見込み客リストを作成、フィルタリング、レビューする方法を学び、アウトリーチの優先順位を決定します。
+description: CRMから見込み客リストを作成し、インポートして手動で追加する方法、見込み客をフィルタリングする方法、Sales Qualifierで見込み客の詳細を確認する方法を説明します。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
 workflow-type: tm+mt
-source-wordcount: 550
+source-wordcount: 549
 ht-degree: 2%
 
 ---
@@ -23,7 +19,7 @@ ht-degree: 2%
 
 左側のナビゲーションで「**[!UICONTROL 見込み客]**」を選択して、アクセスできるリードと取引先責任者を表示します。 リストを使用して、各見込み客のステータスと最新のアクティビティを確認します。
 
-リードのステータスと見込み客の管理の最後のアクティビティを表示する![見込み客テーブル &#x200B;](./assets/prospects.png){width="800" zoomable="yes"}
+リードのステータスと見込み客の管理の最後のアクティビティを表示する![見込み客テーブル ](./assets/prospects.png){width="800" zoomable="yes"}
 
 * **[!UICONTROL リード]** – 接続されたCRMで割り当てられたリード。
 * **[!UICONTROL 連絡先]** – 接続されたCRMで割り当てられた連絡先。
@@ -42,7 +38,7 @@ CRMから来ない見込み客を追加するには：
 
 1. **[!UICONTROL 見込み客]** ページで、**[!UICONTROL 人物一覧]**&#x200B;を選択します。
 
-   ![&#x200B; ユーザーリスト &#x200B;](assets/prospects-people-list.png){width="800" zoomable="yes"}
+   ![ ユーザーリスト ](assets/prospects-people-list.png){width="800" zoomable="yes"}
 
 1. **[!UICONTROL +人を追加]**&#x200B;を選択してから、**[!UICONTROL CSVを読み込み]**&#x200B;または&#x200B;**[!UICONTROL 人を追加]**&#x200B;を選択します。
 
@@ -61,24 +57,24 @@ CRMから来ない見込み客を追加するには：
 * 役職
 * アカウント
 * ソース
-* 最終更新日時
+* 最終更新日
 
-また、管理者は、マッピングされたCRM フィールドをフィルターとして利用できるようにすることもできます。 **[!UICONTROL 管理者設定]**&#x200B;で、担当者が見込み客の検索に使用する各フィールドの&#x200B;**[!UICONTROL フィルター可能]**&#x200B;をオンにします。 [CRM フィールドのマッピング &#x200B;](integrations.md#map-crm-fields-inbound-mapping)を参照してください。
+また、管理者は、マッピングされたCRM フィールドをフィルターとして利用できるようにすることもできます。 **[!UICONTROL 管理者設定]**&#x200B;で、担当者が見込み客の検索に使用する各フィールドの&#x200B;**[!UICONTROL フィルター可能]**&#x200B;をオンにします。 [CRM フィールドのマッピング ](integrations.md#map-crm-fields-inbound-mapping)を参照してください。
 
 **[!UICONTROL マイ商談コンタクト]**&#x200B;では、ステージ、タイプ、クローズ日など、関連する商談のフィールドでコンタクトをフィルタリングすることもできます。 商談フィールドには、**[!UICONTROL ステージ（商談）]**&#x200B;などのラベルがあり、連絡先フィールドと区別されます。 管理者は、フィルターとして使用できる商談フィールドを制御します。
 
-### Marketoのエンゲージメントでフィルター
+### マーケティングのハイライトでフィルタリング
 
 電子メールの開封数やクリック数、web訪問、フォーム入力、注目のアクションなど、[!DNL Marketo]個のライブ活動によって見込み客を見つけ、優先順位を付けることができます。 エンゲージメントは、ほぼリアルタイムで発生します。
 
-Marketoのエンゲージメントで見込み顧客をフィルタリングするには：
+マーケティングハイライトで見込み客をフィルタリングするには：
 
 1. **[!UICONTROL フィルター]**&#x200B;を選択します。
-1. [!DNL Marketo] エンゲージメントフィルターを追加し、アクティビティのタイプ、キャンペーン、その他の属性を設定して、重要なエンゲージメントに焦点を当てます。
+1. マーケティングハイライトフィルターを追加し、アクティビティタイプやキャンペーンなどの属性を設定して、重要なエンゲージメントに集中させることができます。
 
 各見込み客には、最新の[!DNL Marketo] アクティビティと最近の履歴が表示されます。
 
-Marketoのエンゲージメントフィルタリングは、すべての実稼動リージョンで使用できます。 管理者が組織とサンドボックスに対して有効にし、マーケターは[!DNL Marketo]で1回限りの設定を完了します。 [Marketo エンゲージメントフィルタリングを有効にする](integrations.md#turn-on-marketo-engagement-filtering)を参照してください。
+マーケティングハイライトは、すべての実稼動地域で使用できます。 管理者は、[!DNL Marketo]をSales Qualifierに接続する1回限りの設定を完了します。 [ マーケティングハイライトの設定](integrations.md#turn-on-marketo-engagement-filtering)を参照してください。
 
 ## 見込み客の詳細の確認
 
@@ -92,5 +88,5 @@ Marketoのエンゲージメントフィルタリングは、すべての実稼�
 >[!MORELIKETHIS]
 >
 >* [アカウント](accounts.md)
->* [&#x200B; アウトバウンドワークフロー](outbound-workflows.md)
->* [AI チャット &#x200B;](ai-assistant.md)
+>* [ アウトバウンドワークフロー](outbound-workflows.md)
+>* [AI チャット ](ai-assistant.md)
