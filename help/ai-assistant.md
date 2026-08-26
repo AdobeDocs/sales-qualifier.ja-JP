@@ -4,15 +4,11 @@ description: Sales QualifierのAI チャットを使用して、CRM、エンゲ�
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/LHCHAk0rsNwLsKFhKMlHaLL7xkkCEAKFNDMEonb2TdQ'
-product_v2:
-  - id: d98caee2-fd67-486e-9513-36435358ebff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+product_v2: id: d98caee2-fd67-486e-9513-36435358ebff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 401
 ht-degree: 1%
@@ -26,7 +22,7 @@ AI チャットは、セールスコンテキストにもとづいて自然言�
 
 ## AI チャットを開く
 
-フローティング **[!UICONTROL AI チャット]** ボタンを選択して、チャットパネルを開きます。 パネルが現在のページの横に開き、見込み顧客、アカウント、またはエンゲージメントプランを表示できます。 パネルの端をドラッグして、サイズを変更します。 パネルを閉じるには、**[!UICONTROL AI チャット]**&#x200B;をもう一度選択します。
+フローティング **[!UICONTROL AI チャット]** ボタンを選択して、チャットパネルを開きます。 パネルが現在のページの横に開き、見込み顧客、アカウント、またはアウトバウンドワークフローを表示できます。 パネルの端をドラッグして、サイズを変更します。 パネルを閉じるには、**[!UICONTROL AI チャット]**&#x200B;をもう一度選択します。
 
 >[!NOTE]
 >
@@ -36,7 +32,7 @@ AI チャットは、セールスコンテキストにもとづいて自然言�
 
 AI Chatでは、次のソースを使用できます。
 
-* [&#x200B; ナレッジセンター](knowledge-center.md)にある組織のプレイブック。
+* [ ナレッジセンター](knowledge-center.md)にある組織のプレイブック。
 * リード、取引先責任者、アカウント、商談、アクティビティなど、連携されたCRM。
 * [!DNL Marketo]のアクティビティとエンゲージメントのデータ。
 * アカウント調査とAccount Qualification Agentによって収集された最近のニュース。
@@ -49,12 +45,12 @@ AI チャットを使用するタスク：
 * **調査と要約**：アカウント、購買グループ、または見込み客の最近のエンゲージメントの概要を求めます。
 * **ポジショニングの構築**：会議の前に、アシスタントに特定のアカウントに対するソリューションのポジショニングを依頼します。
 * **アウトリーチの作成と調整**：電子メールの作成または書き換えを依頼します。 トーン、長さ、言語、絵文字を含めるかどうかを指定します。
-* **推奨事項を取得**：優先する見込み顧客またはアカウントを尋ねるか、新しいエンゲージメントプランの目標または頻度をリクエストします。
+* **推奨事項を取得**：優先順位を付ける見込み客またはアカウントを尋ねるか、新しいアウトバウンドワークフローの目標または頻度をリクエストします。
 * **連絡先の詳細を検索**：見込み客に連絡先と背景に関する詳細な情報を提供するように、アシスタントに依頼します。
 
 ## プレイブック内の回答のグラウンド
 
-[&#x200B; ナレッジセンター](knowledge-center.md) プレイブックを使用するには、質問のナレッジセンターを参照してください。 例：
+[ ナレッジセンター](knowledge-center.md) プレイブックを使用するには、質問のナレッジセンターを参照してください。 例：
 
 `From the Knowledge Center, help me position our security solution for ABC Corp ahead of tomorrow's call.`
 
@@ -76,6 +72,6 @@ AI チャットの利用には、Adobeの生成AIに関する条件が適用さ�
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ナレッジセンター](knowledge-center.md)
+>* [ ナレッジセンター](knowledge-center.md)
 >* [アカウント](accounts.md)
->* [&#x200B; アウトバウンドワークフロー](outbound-workflows.md)
+>* [ アウトバウンドワークフロー](outbound-workflows.md)

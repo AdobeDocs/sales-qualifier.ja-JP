@@ -4,16 +4,12 @@ description: Sales Qualifierで見込み客リストを作成、フィルタリ�
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
-source-wordcount: 535
+source-wordcount: 550
 ht-degree: 2%
 
 ---
@@ -23,10 +19,11 @@ ht-degree: 2%
 
 左側のナビゲーションで「**[!UICONTROL 見込み客]**」を選択して、アクセスできるリードと取引先責任者を表示します。 リストを使用して、各見込み客のステータスと最新のアクティビティを確認します。
 
-リードのステータスと見込み客の管理の最後のアクティビティを表示する![見込み客テーブル &#x200B;](./assets/prospects.png){width="800" zoomable="yes"}
+リードのステータスと見込み客の管理の最後のアクティビティを表示する![見込み客テーブル ](./assets/prospects.png){width="800" zoomable="yes"}
 
 * **[!UICONTROL リード]** – 接続されたCRMで割り当てられたリード。
 * **[!UICONTROL 連絡先]** – 接続されたCRMで割り当てられた連絡先。
+* **[!UICONTROL マーケティングハイライト]**：電子メールの開封やクリックなど、Marketoのライブ活動を行う見込み客。
 * **[!UICONTROL 人物リスト]** – 手動でインポートまたは追加する見込み客。
 
 ## 見込み客リストの作成
@@ -40,6 +37,9 @@ ht-degree: 2%
 CRMから来ない見込み客を追加するには：
 
 1. **[!UICONTROL 見込み客]** ページで、**[!UICONTROL 人物一覧]**&#x200B;を選択します。
+
+   ![ ユーザーリスト ](assets/prospects-people-list.png){width="800" zoomable="yes"}
+
 1. **[!UICONTROL +人を追加]**&#x200B;を選択してから、**[!UICONTROL CSVを読み込み]**&#x200B;または&#x200B;**[!UICONTROL 人を追加]**&#x200B;を選択します。
 
    * CSVを読み込む場合は、`firstname,email`形式のCSVをアップロードします。
@@ -52,14 +52,14 @@ CRMから来ない見込み客を追加するには：
 
 リストを絞り込むには、**[!UICONTROL フィルター]**&#x200B;を選択します。 次の条件でフィルタリングできます。
 
-* エンゲージメントプランステータス
+* アウトバウンドワークフローのステータス
 * 作成者
 * 役職
 * アカウント
 * ソース
-* 最終更新日
+* 最終更新日時
 
-また、管理者は、マッピングされたCRM フィールドをフィルターとして利用できるようにすることもできます。 **[!UICONTROL 管理者設定]**&#x200B;で、担当者が見込み客の検索に使用する各フィールドの&#x200B;**[!UICONTROL フィルター可能]**&#x200B;をオンにします。 [CRM フィールドのマッピング &#x200B;](integrations.md#map-crm-fields-inbound-mapping)を参照してください。
+また、管理者は、マッピングされたCRM フィールドをフィルターとして利用できるようにすることもできます。 **[!UICONTROL 管理者設定]**&#x200B;で、担当者が見込み客の検索に使用する各フィールドの&#x200B;**[!UICONTROL フィルター可能]**&#x200B;をオンにします。 [CRM フィールドのマッピング ](integrations.md#map-crm-fields-inbound-mapping)を参照してください。
 
 **[!UICONTROL マイ商談コンタクト]**&#x200B;では、ステージ、タイプ、クローズ日など、関連する商談のフィールドでコンタクトをフィルタリングすることもできます。 商談フィールドには、**[!UICONTROL ステージ（商談）]**&#x200B;などのラベルがあり、連絡先フィールドと区別されます。 管理者は、フィルターとして使用できる商談フィールドを制御します。
 
@@ -88,5 +88,5 @@ Marketoのエンゲージメントフィルタリングは、すべての実稼�
 >[!MORELIKETHIS]
 >
 >* [アカウント](accounts.md)
->* [&#x200B; アウトバウンドワークフロー](outbound-workflows.md)
->* [AI チャット &#x200B;](ai-assistant.md)
+>* [ アウトバウンドワークフロー](outbound-workflows.md)
+>* [AI チャット ](ai-assistant.md)
