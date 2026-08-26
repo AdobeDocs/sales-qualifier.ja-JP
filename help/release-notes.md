@@ -18,7 +18,7 @@ ht-degree: 12%
 
 このリリースには次のものが含まれます。
 
-* AIが生成したアクティビティの概要とシグナルベースのスコアリングによる、見込み顧客とアカウントの優先順位付け。 [見込み顧客に関する詳細](prospects.md#review-prospect-details)または[ アカウント ](accounts.md#account-insights)を確認します。
+* AIが生成したアクティビティの概要とシグナルベースのスコアリングによる、見込み顧客とアカウントの優先順位付け。 [見込み顧客に関する詳細](prospects.md#review-prospect-details)または[&#x200B; アカウント &#x200B;](accounts.md#account-insights)を確認します。
 * AIが提案したケイデンスとドラフト付きメールによる、目標主導のアウトバウンドワークフロー。 [詳細情報](outbound-workflows.md)。
 * 電話、LinkedInMails、メールレビュー用の統合タスクキュー。 [詳細情報](tasks.md)。
 * カレンダー統合によるミーティングの自動予約。 [詳細情報](outbound-workflows.md#meeting-booking)。
