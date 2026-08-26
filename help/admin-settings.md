@@ -4,8 +4,11 @@ description: CRM フィールド、アクティビティの同期、メールオ
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/vbtO6I67ZEaZz3oio9InNErvq5D0wjbRxyDZpTq8Lzo'
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
 internal-label: Administration
 source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
@@ -25,7 +28,7 @@ CRM接続、フィールドマッピング、およびアクティビティの�
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 管理者設定]**&#x200B;にアクセスするには、`Sales Qualifier`と`Sales Qualifier Admins` ユーザーグループの両方のメンバーシップが必要です。 [ ユーザーの役割と権限](user-roles-permissions.md)を参照してください。
+>**[!UICONTROL 管理者設定]**&#x200B;にアクセスするには、`Sales Qualifier`と`Sales Qualifier Admins` ユーザーグループの両方のメンバーシップが必要です。 [&#x200B; ユーザーの役割と権限](user-roles-permissions.md)を参照してください。
 
 ## CRM MCPと組み込みプラグイン
 
@@ -110,5 +113,5 @@ ORDER BY LastModifiedDate DESC
 >[!MORELIKETHIS]
 >
 >* [基本を学ぶ](getting-started.md)
->* [ ユーザーの役割と権限](user-roles-permissions.md)
+>* [&#x200B; ユーザーの役割と権限](user-roles-permissions.md)
 >* [見込み客](prospects.md)
