@@ -4,18 +4,13 @@ description: Sales Qualifierは、見込み顧客の絞り込み、アウトリ�
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/4IsAlgFBxddHCz0-CLCDXPCHI7m3motiXhgCR6MZq0k'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
 workflow-type: tm+mt
-source-wordcount: 412
-ht-degree: 22%
+source-wordcount: 391
+ht-degree: 21%
 
 ---
 
@@ -36,13 +31,13 @@ BDRは、ブラウザーとメールのプラグインを使用して、CRMやOu
 * **CRM、エンゲージメント、ナレッジセンターのデータを使用するAI チャットを使用して、自然言語で質問する**。
 * **電子メールとミーティング予約レポートを使用して、アウトリーチのパフォーマンス**&#x200B;を追跡します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476562?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 ## ガイドの探索
 
 ::::landing-cards-container
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 基本を学ぶ
 
@@ -52,7 +47,7 @@ BDRは、ブラウザーとメールのプラグインを使用して、CRMやOu
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 見込み客
 
@@ -62,7 +57,7 @@ BDRは、ブラウザーとメールのプラグインを使用して、CRMやOu
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 アカウント
 
@@ -72,7 +67,7 @@ BDRは、ブラウザーとメールのプラグインを使用して、CRMやOu
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 アウトバウンドワークフロー
 
@@ -82,7 +77,7 @@ AIを活用してパーソナライズされたメールで、目標主導型の
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 タスク
 
@@ -92,7 +87,7 @@ AIを活用してパーソナライズされたメールで、目標主導型の
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 パフォーマンス
 
@@ -102,17 +97,17 @@ AIを活用してパーソナライズされたメールで、目標主導型の
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 ナレッジセンター
 
 AIのアウトリーチとマテリアル内の支援を基盤とするプレイブックを作成します。
 
-[ナレッジセンター](knowledge-center.md)
+[ナレッジセンター](admin-settings.md#knowledge-center)
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 統合
 
@@ -122,7 +117,7 @@ SalesforceやMicrosoft Dynamics 365と接続してフィールドをマッピン
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 プロファイル設定
 
@@ -132,17 +127,7 @@ SalesforceやMicrosoft Dynamics 365と接続してフィールドをマッピン
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
-
-ユーザーの役割と権限
-
-ユーザーと管理者のグループモデルについて説明します。
-
-[ユーザーの役割と権限](user-roles-permissions.md)
-:::
-
-:::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 AI チャット
 

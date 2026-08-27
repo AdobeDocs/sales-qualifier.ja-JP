@@ -4,17 +4,13 @@ description: Sales QualifierのAI チャットを使用して、CRM、エンゲ�
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/LHCHAk0rsNwLsKFhKMlHaLL7xkkCEAKFNDMEonb2TdQ'
-product_v2:
-  - id: d98caee2-fd67-486e-9513-36435358ebff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+product_v2: id: d98caee2-fd67-486e-9513-36435358ebff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 401
+source-wordcount: 404
 ht-degree: 1%
 
 ---
@@ -23,6 +19,8 @@ ht-degree: 1%
 # AI チャット
 
 AI チャットは、セールスコンテキストにもとづいて自然言語の質問に回答します。 Sales Qualifierから直接、アカウントの調査、電話対応、アウトリーチのドラフト作成、作業の優先順位付けをおこなうことができます。
+
+![AI チャット ボタン ](assets/ai-chat.png){width="800" zoomable="yes"}
 
 ## AI チャットを開く
 
@@ -36,7 +34,7 @@ AI チャットは、セールスコンテキストにもとづいて自然言�
 
 AI Chatでは、次のソースを使用できます。
 
-* [&#x200B; ナレッジセンター](knowledge-center.md)にある組織のプレイブック。
+* [ ナレッジセンター](admin-settings.md#knowledge-center)にある組織のプレイブック。
 * リード、取引先責任者、アカウント、商談、アクティビティなど、連携されたCRM。
 * [!DNL Marketo]のアクティビティとエンゲージメントのデータ。
 * アカウント調査とAccount Qualification Agentによって収集された最近のニュース。
@@ -54,7 +52,7 @@ AI チャットを使用するタスク：
 
 ## プレイブック内の回答のグラウンド
 
-[&#x200B; ナレッジセンター](knowledge-center.md) プレイブックを使用するには、質問のナレッジセンターを参照してください。 例：
+[ ナレッジセンター](admin-settings.md#knowledge-center) プレイブックを使用するには、質問のナレッジセンターを参照してください。 例：
 
 `From the Knowledge Center, help me position our security solution for ABC Corp ahead of tomorrow's call.`
 
@@ -76,6 +74,6 @@ AI チャットの利用には、Adobeの生成AIに関する条件が適用さ�
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ナレッジセンター](knowledge-center.md)
+>* [ ナレッジセンター](admin-settings.md#knowledge-center)
 >* [アカウント](accounts.md)
->* [&#x200B; アウトバウンドワークフロー](outbound-workflows.md)
+>* [ アウトバウンドワークフロー](outbound-workflows.md)

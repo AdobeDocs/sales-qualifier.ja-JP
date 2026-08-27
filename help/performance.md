@@ -4,11 +4,10 @@ description: Sales Qualifierで組織のパフォーマンスレポートとキ�
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/ofBw7JHKkkQaPOeUZ6rreLDAhAfineLveBeVYK-CerQ'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 321
+source-wordcount: 334
 ht-degree: 0%
 
 ---
@@ -18,7 +17,7 @@ ht-degree: 0%
 
 左側のナビゲーションで、**[!UICONTROL アウトバウンドパフォーマンス]**&#x200B;を選択して、チーム全体のアウトバウンドアクティビティと結果を追跡します。 ダッシュボードには、**[!UICONTROL 組織パフォーマンス]**&#x200B;と&#x200B;**[!UICONTROL キャンペーンパフォーマンス]**&#x200B;の2つのビューがあります。
 
-[アウトバウンドパフォーマンス](assets/outbound-performance.png){width="800" zoomable="yes"}
+![ アウトバウンドパフォーマンス ](assets/outbound-performance.png){width="800" zoomable="yes"}
 
 ## フィルターと期間
 
@@ -33,7 +32,7 @@ ht-degree: 0%
 
 ### 「概要」タブ
 
-「**[!UICONTROL 概要]**」タブでは、アウトバウンド結果が一目でわかります。
+「**[!UICONTROL 概要]**」タブでは、アウトバウンドの結果が一目でわかります。 いずれかのボックスをクリックして、その情報を含むグラフを表示します。
 
 * **タイル**: パイプライン、電子メールのエンゲージメント、手動アクティビティ。それぞれ前の期間に対する傾向が変化します。
 * **パフォーマンス傾向チャート**：選択した期間のアウトバウンドパフォーマンス。
@@ -65,9 +64,9 @@ Sales Qualifierでは、不在の返信やバウンスに対して個別のス�
 * **キャンペーン指標のトレンド チャート**：選択した期間のキャンペーン KPI。
 * **[!UICONTROL キャンペーン]**&#x200B;のテーブル：各キャンペーンの電子メール、会議、電話、LinkedIn メッセージのアクティビティ。 キャンペーン行を展開して、そのキャンペーンの担当者レベルの詳細を表示します。
 
-予約の生成方法については、[&#x200B; ミーティング予約](outbound-workflows.md#meeting-booking)を参照してください。
+予約の生成方法については、[ ミーティング予約](outbound-workflows.md#meeting-booking)を参照してください。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; アウトバウンドワークフロー](outbound-workflows.md)
+>* [ アウトバウンドワークフロー](outbound-workflows.md)
 >* [タスク](tasks.md)

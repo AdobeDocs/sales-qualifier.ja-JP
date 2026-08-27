@@ -3,18 +3,12 @@ title: マーケティングハイライトの設定
 description: MarketoとSales Qualifierを連携して、担当者がマーケティングハイライトでMarketoのライブ活動を表示し、見込み客をフィルタリングできるようにする方法について説明します。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 686
+source-wordcount: 675
 ht-degree: 3%
 
 ---
@@ -22,7 +16,7 @@ ht-degree: 3%
 
 # マーケティングハイライトの設定
 
-マーケティングハイライトは、電子メールの開封やクリック、web訪問、フォーム入力など、各見込み客のライブ [!DNL Marketo]のアクティビティを、Sales Qualifierの見込み客の「**[!UICONTROL マーケティングハイライト]**」タブに表示します。 この記事では、[!DNL Marketo] インスタンスを接続してアクティビティが流れるようにする方法について説明します。
+マーケティングハイライトには、電子メールの開封数やクリック数、web訪問、フォーム入力など、各見込み客のライブ [!DNL Marketo] アクティビティが表示されます。 この記事では、[!DNL Marketo] インスタンスを接続してアクティビティが流れるようにする方法について説明します。
 
 >[!IMPORTANT]
 >
@@ -53,7 +47,7 @@ ht-degree: 3%
 
 1. `Sales Qualifier Marketing Highlights Creds`など、45文字以下の資格情報名を入力してください。
 1. 関連付ける製品プロファイルを選択し、**[!UICONTROL 設定したAPIを保存]**&#x200B;を選択します。
-1. **[!UICONTROL 接続済み資格情報]**&#x200B;で、**[!UICONTROL OAuth サーバー間]**&#x200B;資格情報を開きます。 「**[!UICONTROL クライアントシークレットを取得]**」を選択し、**[!UICONTROL クライアント ID]**&#x200B;と&#x200B;**[!UICONTROL クライアントシークレット]**&#x200B;をコピーします。 これらの値は、[&#x200B; パート C](#part-c-configure-the-marketo-webhook)で使用します。
+1. **[!UICONTROL 接続済み資格情報]**&#x200B;で、**[!UICONTROL OAuth サーバー間]**&#x200B;資格情報を開きます。 「**[!UICONTROL クライアントシークレットを取得]**」を選択し、**[!UICONTROL クライアント ID]**&#x200B;と&#x200B;**[!UICONTROL クライアントシークレット]**&#x200B;をコピーします。 これらの値は、[ パート C](#part-c-configure-the-marketo-webhook)で使用します。
 
 >[!WARNING]
 >
@@ -61,7 +55,7 @@ ht-degree: 3%
 
 ## パート B：エンドポイントと識別子の収集 {#part-b-gather-your-endpoint-and-identifiers}
 
-[&#x200B; パート C](#part-c-configure-the-marketo-webhook)には3つの値が必要です：
+[ パート C](#part-c-configure-the-marketo-webhook)には3つの値が必要です：
 
 * **エンドポイント URL** – お住まいの地域のSales Qualifier Webhook アドレス。
 * **imsOrg ID**—Adobe Identity Management システム （IMS）の組織のID （フォーム `{ORG_ID}@AdobeOrg`）。
@@ -83,7 +77,7 @@ Webhookを作成するには：
 
 1. [!DNL Marketo]で、**[!UICONTROL Admin]** > **[!UICONTROL Webhook]**&#x200B;を選択します。
 1. **[!UICONTROL 新しいWebhook]**&#x200B;を選択します。
-1. **[!UICONTROL URL]**&#x200B;を[&#x200B; パート B](#part-b-gather-your-endpoint-and-identifiers)から地域のエンドポイント URLに設定します。
+1. **[!UICONTROL URL]**&#x200B;を[ パート B](#part-b-gather-your-endpoint-and-identifiers)から地域のエンドポイント URLに設定します。
 1. **[!UICONTROL 要求タイプ]**&#x200B;を`POST`に設定します。
 1. **[!UICONTROL 要求トークンエンコーディング]**&#x200B;を`JSON`に設定します。 この設定は必須です。
 1. 以下のペイロードテンプレートを&#x200B;**[!UICONTROL テンプレート]**&#x200B;に貼り付けます。 [!DNL Marketo]の&#x200B;**[!UICONTROL トークンを挿入]**&#x200B;を使用して、インスタンス内のフィールド名と一致させます。
@@ -150,7 +144,7 @@ Webhookを作成するには：
    }
    ```
 
-1. **[!UICONTROL Webhook Actions]** > **[!UICONTROL カスタムヘッダーを設定]**&#x200B;を選択し、[&#x200B; パート A](#part-a-create-api-credentials)および[&#x200B; パート B](#part-b-gather-your-endpoint-and-identifiers)の値を使用して、次のヘッダーを追加します。
+1. **[!UICONTROL Webhook Actions]** > **[!UICONTROL カスタムヘッダーを設定]**&#x200B;を選択し、[ パート A](#part-a-create-api-credentials)および[ パート B](#part-b-gather-your-endpoint-and-identifiers)の値を使用して、次のヘッダーを追加します。
 
    | ヘッダー | 値 |
    | --- | --- |
@@ -172,7 +166,7 @@ Webhookを追加するには：
 
 1. 既存のトリガースマートキャンペーンを開くか、新しいスマートキャンペーンを作成します（**[!UICONTROL マーケティングアクティビティ]** > **[!UICONTROL 新規]** > **[!UICONTROL スマートキャンペーン]**）。
 1. 「**[!UICONTROL スマートリスト]**」タブで、送信するアクティビティのトリガーまたはトリガーを追加します。例えば、**[!UICONTROL 電子メールのリンクをクリック]**、**[!UICONTROL フォームに入力]**、**[!UICONTROL Web ページへの訪問]**&#x200B;などです。
-1. 「**[!UICONTROL フロー]**」タブで、**[!UICONTROL Webhookを呼び出す]** ステップを追加し、[&#x200B; パート C](#part-c-configure-the-marketo-webhook)で作成したWebhookを選択します。
+1. 「**[!UICONTROL フロー]**」タブで、**[!UICONTROL Webhookを呼び出す]** ステップを追加し、[ パート C](#part-c-configure-the-marketo-webhook)で作成したWebhookを選択します。
 1. スマートキャンペーンをアクティブ化します。
 
 スマートキャンペーンのアクティビティがSales Qualifierに取り込まれます。 担当者は、**[!UICONTROL 見込み客]** > **[!UICONTROL マーケティングハイライト]**&#x200B;でこのアクティビティを表示およびフィルタリングします。
