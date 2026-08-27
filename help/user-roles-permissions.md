@@ -13,7 +13,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d6a8091bd893ea80a26edfc1526646aec037223f
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 246
 ht-degree: 4%
@@ -29,7 +29,7 @@ Sales Qualifierでは、2つの必要なユーザーグループを使用して�
 
 | グループ | 誰が属する | What it grants |
 | --- | --- | --- |
-| `Sales Qualifier` | 管理者を含む全ユーザー | アプリケーションへのアクセス：見込み顧客、アカウント、エンゲージメントプラン、タスク、パフォーマンス、プロファイル設定 |
+| `Sales Qualifier` | 管理者を含む全ユーザー | アプリケーションへのアクセス：見込み顧客、アカウント、アウトバウンドワークフロー、タスク、パフォーマンス、プロファイル設定 |
 | `Sales Qualifier Admins` | `Sales Qualifier` グループに加えて、管理者のみ | 組織全体のCRM接続、ナレッジセンター、およびコンプライアンス設定を管理する&#x200B;**[!UICONTROL 管理者設定]**&#x200B;へのアクセス。 |
 
 標準ユーザーには`Sales Qualifier` グループのみが必要です。 管理者は両方のグループのメンバーシップが必要です。 これらのグループを作成するには、[開始](getting-started.md)を参照してください。

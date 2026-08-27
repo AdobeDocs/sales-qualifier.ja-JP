@@ -10,7 +10,7 @@ feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
 internal-label: Administration
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 670
 ht-degree: 0%
@@ -70,7 +70,7 @@ CRMが接続されたら、接続の&#x200B;**[!UICONTROL 管理]**&#x200B;を�
 
 1. **[!UICONTROL CRM接続]**&#x200B;から、接続されたCRMの&#x200B;**[!UICONTROL 管理]**&#x200B;を選択します。
 1. **[!UICONTROL アウトバウンドマッピング]**&#x200B;を開きます。
-1. **[!UICONTROL アクティビティ同期]**&#x200B;をオンにして、Sales Qualifier アウトリーチアクティビティをCRMおよびMarketoに同期します。 電子メールの送信、開封、クリック、返信アクティビティには、エンゲージメントプラン名が含まれます。
+1. **[!UICONTROL アクティビティ同期]**&#x200B;をオンにして、Sales Qualifier アウトリーチアクティビティをCRMおよびMarketoに同期します。 電子メールの送信、開封、クリック、返信アクティビティには、アウトバウンドワークフロー名が含まれます。
 
 アクティビティの同期がオフの場合、Sales Qualifierは引き続きインバウンド CRM データを使用しますが、アウトリーチアクティビティをCRMまたはMarketoに同期しません。
 

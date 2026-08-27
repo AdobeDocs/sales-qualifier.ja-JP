@@ -1,6 +1,6 @@
 ---
 title: Sales Qualifierの見込み客
-description: Sales Qualifierで見込み客リストを作成、フィルタリング、レビューする方法を学び、アウトリーチの優先順位を決定します。
+description: CRMから見込み客リストを作成し、インポートして手動で追加する方法、見込み客をフィルタリングする方法、Sales Qualifierで見込み客の詳細を確認する方法を説明します。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
@@ -11,9 +11,9 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
 workflow-type: tm+mt
-source-wordcount: 535
+source-wordcount: 549
 ht-degree: 2%
 
 ---
@@ -27,6 +27,7 @@ ht-degree: 2%
 
 * **[!UICONTROL リード]** – 接続されたCRMで割り当てられたリード。
 * **[!UICONTROL 連絡先]** – 接続されたCRMで割り当てられた連絡先。
+* **[!UICONTROL マーケティングハイライト]**：電子メールの開封やクリックなど、Marketoのライブ活動を行う見込み客。
 * **[!UICONTROL 人物リスト]** – 手動でインポートまたは追加する見込み客。
 
 ## 見込み客リストの作成
@@ -40,6 +41,9 @@ ht-degree: 2%
 CRMから来ない見込み客を追加するには：
 
 1. **[!UICONTROL 見込み客]** ページで、**[!UICONTROL 人物一覧]**&#x200B;を選択します。
+
+   ![&#x200B; ユーザーリスト &#x200B;](assets/prospects-people-list.png){width="800" zoomable="yes"}
+
 1. **[!UICONTROL +人を追加]**&#x200B;を選択してから、**[!UICONTROL CSVを読み込み]**&#x200B;または&#x200B;**[!UICONTROL 人を追加]**&#x200B;を選択します。
 
    * CSVを読み込む場合は、`firstname,email`形式のCSVをアップロードします。
@@ -52,7 +56,7 @@ CRMから来ない見込み客を追加するには：
 
 リストを絞り込むには、**[!UICONTROL フィルター]**&#x200B;を選択します。 次の条件でフィルタリングできます。
 
-* エンゲージメントプランステータス
+* アウトバウンドワークフローのステータス
 * 作成者
 * 役職
 * アカウント
@@ -63,18 +67,18 @@ CRMから来ない見込み客を追加するには：
 
 **[!UICONTROL マイ商談コンタクト]**&#x200B;では、ステージ、タイプ、クローズ日など、関連する商談のフィールドでコンタクトをフィルタリングすることもできます。 商談フィールドには、**[!UICONTROL ステージ（商談）]**&#x200B;などのラベルがあり、連絡先フィールドと区別されます。 管理者は、フィルターとして使用できる商談フィールドを制御します。
 
-### Marketoのエンゲージメントでフィルター
+### マーケティングのハイライトでフィルタリング
 
 電子メールの開封数やクリック数、web訪問、フォーム入力、注目のアクションなど、[!DNL Marketo]個のライブ活動によって見込み客を見つけ、優先順位を付けることができます。 エンゲージメントは、ほぼリアルタイムで発生します。
 
-Marketoのエンゲージメントで見込み顧客をフィルタリングするには：
+マーケティングハイライトで見込み客をフィルタリングするには：
 
 1. **[!UICONTROL フィルター]**&#x200B;を選択します。
-1. [!DNL Marketo] エンゲージメントフィルターを追加し、アクティビティのタイプ、キャンペーン、その他の属性を設定して、重要なエンゲージメントに焦点を当てます。
+1. マーケティングハイライトフィルターを追加し、アクティビティタイプやキャンペーンなどの属性を設定して、重要なエンゲージメントに集中させることができます。
 
 各見込み客には、最新の[!DNL Marketo] アクティビティと最近の履歴が表示されます。
 
-Marketoのエンゲージメントフィルタリングは、すべての実稼動リージョンで使用できます。 管理者が組織とサンドボックスに対して有効にし、マーケターは[!DNL Marketo]で1回限りの設定を完了します。 [Marketo エンゲージメントフィルタリングを有効にする](integrations.md#turn-on-marketo-engagement-filtering)を参照してください。
+マーケティングハイライトは、すべての実稼動地域で使用できます。 管理者は、[!DNL Marketo]をSales Qualifierに接続する1回限りの設定を完了します。 [&#x200B; マーケティングハイライトの設定](integrations.md#turn-on-marketo-engagement-filtering)を参照してください。
 
 ## 見込み客の詳細の確認
 

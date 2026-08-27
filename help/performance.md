@@ -6,7 +6,7 @@ role: User
 TQID: 'https://experienceleague.adobe.com/ofBw7JHKkkQaPOeUZ6rreLDAhAfineLveBeVYK-CerQ'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 321
 ht-degree: 0%
@@ -59,7 +59,7 @@ Sales Qualifierでは、不在の返信やバウンスに対して個別のス�
 
 ## キャンペーンのパフォーマンス
 
-エンゲージメントプラン キャンペーン別のアウトバウンド結果に関する&#x200B;**[!UICONTROL キャンペーンパフォーマンス]** レポート：
+アウトバウンドワークフローキャンペーンによるアウトバウンド結果に関する&#x200B;**[!UICONTROL キャンペーンパフォーマンス]**&#x200B;のレポート：
 
 * **KPI タイル**：アクティブな見込み客、開封率、クリック率、返信率、ミーティングが予約されました。
 * **キャンペーン指標のトレンド チャート**：選択した期間のキャンペーン KPI。
