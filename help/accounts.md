@@ -3,9 +3,13 @@ title: Sales Qualifierのアカウント
 description: AIを利用したリサーチ、最新のニュース、機会、最もエンゲージメントの高い連絡先など、Sales Qualifierのアカウントインテリジェンスを確認して、アウトリーチの優先順位を決定する方法を説明します。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
 source-wordcount: 643
@@ -25,7 +29,7 @@ ht-degree: 0%
 1. 左側のナビゲーションで「**[!UICONTROL 見込み客]**」を選択し、見込み客を開きます。 [見込み客](prospects.md)を参照してください。
 1. 見込み客の詳細ページで、「**[!UICONTROL アカウント]**」タブを選択します。
 
-![人物タブとアカウントタブを含む見込み客の詳細ページ ](./assets/account-home.png){width="800" zoomable="yes"}
+![人物タブとアカウントタブを含む見込み客の詳細ページ &#x200B;](./assets/account-home.png){width="800" zoomable="yes"}
 
 Sales Qualifierは、見込み客のCRM レコードからアカウントを特定します。 そのアカウントに関連付けられたあらゆる見込み客から、同じアカウントビューを利用できます。 Sales Qualifierがアカウントと一致しない場合、タブには&#x200B;_アカウントが見つかりません_&#x200B;と表示されます。
 
@@ -65,7 +69,7 @@ Sales Qualifierは、見込み客のCRM レコードからアカウントを特�
 
 **[!UICONTROL トップメンバー]** ビューから、連絡先に対して次のいずれかのアクションを実行します。
 
-* **[!UICONTROL アウトバウンドワークフローに追加]** - [ アウトバウンドワークフロー](outbound-workflows.md)に連絡先を登録します。
+* **[!UICONTROL アウトバウンドワークフローに追加]** - [&#x200B; アウトバウンドワークフロー](outbound-workflows.md)に連絡先を登録します。
 * **[!UICONTROL Add to Marketo campaign]**：取引先責任者の[!DNL Marketo] キャンペーンをトリガーします。
 
 ## アカウントを調査
@@ -76,7 +80,7 @@ Sales Qualifierは、見込み客のCRM レコードからアカウントを特�
 * **研究コンテンツ** - AIが生成した研究カードをカテゴリ別にグループ化します。 カードには、ソースドメインと、信号が最初に検出された日付と最後に検出された日付を含めることができます。
 * **[!UICONTROL 最近のニュース]** – 日付、タグ、ソースリンクなど、アカウントに関する最新のニュース。
 
-![ アカウント調査タブ ](./assets/account-detail.png){width="800" zoomable="yes"}
+![&#x200B; アカウント調査タブ &#x200B;](./assets/account-detail.png){width="800" zoomable="yes"}
 
 調査またはニュースを読み込めない場合は、各領域で&#x200B;**[!UICONTROL 再読み込み]** アクションを再試行できます。
 
@@ -87,10 +91,10 @@ Sales Qualifierは、見込み客のCRM レコードからアカウントを特�
 * 一般的なプレゼンテーションではなく、最近のニュース記事や調査シグナルを参考に、開封率を適切なものにしましょう。
 * オープン機会とパイプライン値をチェックして、アカウントの優先順位を決定します。
 * **[!UICONTROL トップメンバー]**&#x200B;を使用して連絡先を特定し、アウトバウンドワークフローに登録します。
-* 電話をかける前に、[AI チャット ](ai-assistant.md)にアカウントのポジショニングを開発するように依頼します。
+* 電話をかける前に、[AI チャット &#x200B;](ai-assistant.md)にアカウントのポジショニングを開発するように依頼します。
 
 >[!MORELIKETHIS]
 >
 >* [見込み客](prospects.md)
->* [ アウトバウンドワークフロー](outbound-workflows.md)
->* [AI チャット ](ai-assistant.md)
+>* [&#x200B; アウトバウンドワークフロー](outbound-workflows.md)
+>* [AI チャット &#x200B;](ai-assistant.md)
