@@ -12,9 +12,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 686
+source-wordcount: 675
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 # マーケティングハイライトの設定
 
-マーケティングハイライトは、電子メールの開封やクリック、web訪問、フォーム入力など、各見込み客のライブ [!DNL Marketo]のアクティビティを、Sales Qualifierの見込み客の「**[!UICONTROL マーケティングハイライト]**」タブに表示します。 この記事では、[!DNL Marketo] インスタンスを接続してアクティビティが流れるようにする方法について説明します。
+マーケティングハイライトには、電子メールの開封数やクリック数、web訪問、フォーム入力など、各見込み客のライブ [!DNL Marketo] アクティビティが表示されます。 この記事では、[!DNL Marketo] インスタンスを接続してアクティビティが流れるようにする方法について説明します。
 
 >[!IMPORTANT]
 >

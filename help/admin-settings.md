@@ -10,9 +10,9 @@ feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
 internal-label: Administration
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
 workflow-type: tm+mt
-source-wordcount: 670
+source-wordcount: 856
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ CRM接続、フィールドマッピング、およびアクティビティの�
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 管理者設定]**&#x200B;にアクセスするには、`Sales Qualifier`と`Sales Qualifier Admins` ユーザーグループの両方のメンバーシップが必要です。 [&#x200B; ユーザーの役割と権限](user-roles-permissions.md)を参照してください。
+>**[!UICONTROL 管理者設定]**&#x200B;にアクセスするには、`Sales Qualifier`と`Sales Qualifier Admins` ユーザーグループの両方のメンバーシップが必要です。
 
 ## CRM MCPと組み込みプラグイン
 
@@ -74,6 +74,31 @@ CRMが接続されたら、接続の&#x200B;**[!UICONTROL 管理]**&#x200B;を�
 
 アクティビティの同期がオフの場合、Sales Qualifierは引き続きインバウンド CRM データを使用しますが、アウトリーチアクティビティをCRMまたはMarketoに同期しません。
 
+## ナレッジセンタープレイブックの作成 {#knowledge-center}
+
+**[!UICONTROL ナレッジセンター]**&#x200B;では、Account Qualification Agent （AQA）が販売資料にアクセスできます。 Sales Qualifierは、これらの学習リソースを利用して、調査、選定インサイト、自社の販売方法を反映したアウトリーチを生成します。 プレイブックを作成および管理できるのは管理者のみです。
+
+![&#x200B; ナレッジセンター](assets/knowledge-center.png){width="800" zoomable="yes"}
+
+1. 左側のナビゲーションで、**[!UICONTROL 管理]**&#x200B;を展開し、**[!UICONTROL 管理者設定]**&#x200B;を選択し、**[!UICONTROL ナレッジセンター]**&#x200B;を選択します
+1. u
+1. Sales Qualifierが会社を調査し、メールを作成するために使用する&#x200B;**[!UICONTROL 会社名]**&#x200B;および&#x200B;**[!UICONTROL 会社URL]**&#x200B;を設定します。
+1. セールスプレイ、ICP （理想的な顧客像）、ポジショニングガイドなど、さまざまな営業資料を、PDF、PPTX、DOCX形式でアップロードできます。
+1. 「**[!UICONTROL プレイブックを作成]**」を選択します。
+
+アップロードされた各ドキュメントには、**[!UICONTROL Ready]**&#x200B;などの処理ステータスと、最終更新日が表示されます。
+
+>[!NOTE]
+>
+>プレイブックの処理には最大で24時間かかる場合があります。
+
+プレイブックの準備ができたら、担当者は次の2つの場所で使用できます。
+
+* **送信メールプロンプト** - タッチポイントプロンプトで、ドキュメントに名前を付け、使用するコンテキストを記述します。 例えば、`Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`と入力します。 [&#x200B; タッチポイントの生成とレビュー](outbound-workflows.md#step-3-generate-and-review-touchpoints)を参照してください。
+* **AI チャット**：質問のナレッジセンターを参照してください。 例えば、`From the Knowledge Center, help me position our security solution for ABC Corp before tomorrow's call`と入力します。 [AI チャット &#x200B;](ai-assistant.md)を参照してください。
+
+どちらの場合も、生成されたコンテンツは、一般的な調査ではなく、プレイブックのメッセージを反映します。
+
 ## グローバルメールオプトアウトの設定
 
 1. 左側のナビゲーションで、**[!UICONTROL 管理]**&#x200B;を展開し、**[!UICONTROL 管理者設定]**&#x200B;を選択します。
@@ -113,5 +138,4 @@ ORDER BY LastModifiedDate DESC
 >[!MORELIKETHIS]
 >
 >* [基本を学ぶ](getting-started.md)
->* [&#x200B; ユーザーの役割と権限](user-roles-permissions.md)
 >* [見込み客](prospects.md)

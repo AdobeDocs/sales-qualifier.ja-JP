@@ -13,7 +13,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
 source-wordcount: 1923
 ht-degree: 0%
@@ -105,7 +105,7 @@ AIは、命令に基づいてケイデンス全体を書き換えます。 ひ�
 
 #### プロンプトでのナレッジセンターの使用
 
-組織が[&#x200B; ナレッジセンター](knowledge-center.md) プレイブックを構築している場合は、プロンプトでそのプレイブックを参照してください。 ドキュメントに名前を付け、使用するコンテキストを記述します。 例えば、`Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`と入力します。
+組織が[&#x200B; ナレッジセンター](admin-settings.md#knowledge-center) プレイブックを構築している場合は、プロンプトでそのプレイブックを参照してください。 ドキュメントに名前を付け、使用するコンテキストを記述します。 例えば、`Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`と入力します。
 
 ケイデンスとプロンプトの準備ができたら、**[!UICONTROL 次へ：設定]**&#x200B;を選択します。
 
@@ -245,5 +245,5 @@ AIは、選択した見込み客とメールの顧客接点ごとにパーソナ
 >[!MORELIKETHIS]
 >
 >* [タスク](tasks.md)
->* [&#x200B; ナレッジセンター](knowledge-center.md)
+>* [&#x200B; ナレッジセンター](admin-settings.md#knowledge-center)
 >* [&#x200B; アウトバウンドパフォーマンス &#x200B;](performance.md)

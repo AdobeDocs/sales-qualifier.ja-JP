@@ -12,9 +12,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
+source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
 workflow-type: tm+mt
-source-wordcount: 1379
+source-wordcount: 1377
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Outlookを接続して、電子メールを送信したり、見込み客の返�
 
 >[!IMPORTANT]
 >
->Outlookの接続は担当者ごとに行われます。 この記事で後述するCRMとコンプライアンスの設定は、組織全体に適用されます。 これらの組織全体の設定にアクセスするには、`Sales Qualifier`および`Sales Qualifier Admins` ユーザーグループに属している必要があります。 標準ユーザーは、設定されたCRM データとフィルターを使用できますが、設定を変更することはできません。 [&#x200B; ユーザーの役割と権限](user-roles-permissions.md)を参照してください。
+>Outlookの接続は担当者ごとに行われます。 この記事で後述するCRMとコンプライアンスの設定は、組織全体に適用されます。 これらの組織全体の設定にアクセスするには、`Sales Qualifier`および`Sales Qualifier Admins` ユーザーグループに属している必要があります。 標準ユーザーは、設定されたCRM データとフィルターを使用できますが、設定を変更することはできません。
 
 ## Outlookの接続
 
@@ -67,7 +67,7 @@ Sales Qualifierは、送信した電子メールに対する返信のみを読�
 | **[!UICONTROL 統合]** | **[!UICONTROL CRM接続]**、**[!UICONTROL ナレッジセンター]** |
 | **[!UICONTROL コンプライアンス]** | **[!UICONTROL メール設定]** |
 
-ナレッジセンターについては、[&#x200B; ナレッジセンター](knowledge-center.md)を参照してください。
+ナレッジセンターについては、[&#x200B; ナレッジセンタープレイブックの作成](admin-settings.md#knowledge-center)を参照してください。
 
 ## CRM接続の管理
 
@@ -96,7 +96,7 @@ Sales Qualifierは、送信した電子メールに対する返信のみを読�
 
    **[!UICONTROL クライアント ID （コンシューマーキー）]**、**[!UICONTROL インスタンス URL]**、**[!UICONTROL クライアントシークレット]**&#x200B;を入力します。 規範的なインスタンス URL フォーム `https://{{mydomain}}.my.salesforce.com`を使用します。
 
-   ![Salesforce接続](assets/crm-conn-salesforce.png){width="800" zoomable="yes"}
+   ![Salesforce資格情報](assets/crm-salesforce-config.png){width="800" zoomable="yes"}
 
    >[!TAB Microsoft Dynamics]
 
@@ -125,8 +125,13 @@ Sales Qualifierが資格情報を拒否した場合は、無効または期限�
 
 インバウンドマッピングでは、Sales Qualifierが読み込むCRM フィールドと、それらのフィールドが表示される場所を制御します。 フィールドはセクションにグループ化され、各セクションはエンティティタイプに属します。
 
+![&#x200B; インバウンドマッピング &#x200B;](assets/crm-conn-salesforce.png){width="800" zoomable="yes"}
+
 1. 接続されたCRM カードで、**[!UICONTROL 管理]**&#x200B;を選択します。
 1. 「**[!UICONTROL インバウンドマッピング]**」タブで、「**[!UICONTROL セクションを追加]**」を選択します。
+
+   ![&#x200B; セクションを追加](assets/crm-add-section.png){width="800" zoomable="yes"}
+
 1. **セクションを選択** ステップで、エンティティタイプを選択し、**[!UICONTROL 次]**&#x200B;を選択します。
 
    | エンティティ | フィールドが表示される場所 |
@@ -197,5 +202,4 @@ CRM管理者は、SalesforceまたはDynamicsでAPI アクセスを準備しま�
 >[!MORELIKETHIS]
 >
 >* [基本を学ぶ](getting-started.md)
->* [&#x200B; ユーザーの役割と権限](user-roles-permissions.md)
 >* [アカウント](accounts.md)

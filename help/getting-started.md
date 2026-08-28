@@ -14,9 +14,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
 workflow-type: tm+mt
-source-wordcount: 1054
+source-wordcount: 1015
 ht-degree: 0%
 
 ---
@@ -30,7 +30,9 @@ AdobeがSales Qualifierを組織にプロビジョニングした後、必要な
 
 ## ユーザーグループの設定
 
-Adobe Admin Consoleの2つのユーザーグループがSales Qualifierへのアクセスを制御します。 ユーザーがログインする前に両方のグループを作成します。
+Adobe Admin Consoleのユーザーグループは、Sales Qualifierへのアクセスを制御するために使用されます。 ユーザーがログインするには、両方のグループを作成する必要があります。
+
+グループの設定について詳しくは、[Adobe Admin Console ドキュメント &#x200B;](https://helpx.adobe.com/jp/business/enterprise/users/users-and-groups/user-groups.html)を参照してください。
 
 >[!PREREQUISITES]
 >
@@ -43,6 +45,8 @@ Adobe Admin Consoleの2つのユーザーグループがSales Qualifierへのア
 
 アプリケーションにアクセスするには、ユーザーが`Sales Qualifier` ユーザーグループに属している必要があります。
 
+これらの手順はAdobe Admin Consoleで行われます。
+
 1. 9点アプリ切り替えツールから、**[!UICONTROL Admin Console]**&#x200B;を選択します。
 1. **[!UICONTROL ユーザー]** > **[!UICONTROL ユーザーグループ]** > **[!UICONTROL 新しいユーザーグループ]**&#x200B;を選択します。
 1. グループ名に「`Sales Qualifier`」と入力し、**[!UICONTROL 保存]**&#x200B;を選択します。
@@ -53,18 +57,16 @@ Adobe Admin Consoleの2つのユーザーグループがSales Qualifierへのア
 
 ### Sales Qualifier管理者
 
-CRM接続、[&#x200B; ナレッジセンター](knowledge-center.md)、およびグローバルメールオプトアウト設定を設定する管理者も、`Sales Qualifier Admins` ユーザーグループに属している必要があります。
+CRM接続、[&#x200B; ナレッジセンター](admin-settings.md#knowledge-center)、およびグローバルメールオプトアウト設定を設定する管理者も、`Sales Qualifier Admins` ユーザーグループに属している必要があります。
 
 1. Adobe Admin Consoleで、**[!UICONTROL Users]** > **[!UICONTROL User groups]** > **[!UICONTROL New user group]**&#x200B;を選択します。
 1. グループ名に「`Sales Qualifier Admins`」と入力し、**[!UICONTROL 保存]**&#x200B;を選択します。
 1. **[!UICONTROL ユーザー]**&#x200B;を開き、**[!UICONTROL ユーザーを追加]**&#x200B;を選択し、管理者を追加します。
 1. 各管理者が`Sales Qualifier` グループのメンバーであることを確認してください。
 
-両方のグループのメンバーシップにより、左側のナビゲーションの&#x200B;**[!UICONTROL 管理]**&#x200B;の下に&#x200B;**[!UICONTROL 管理設定]**&#x200B;が表示されます。 標準ユーザーは、管理者が設定したフィールド、フィルター、プレイブックを使用して作業します。 設定されたオプトアウトフッターは、アウトバウンドメールに自動的に適用されます。 標準ユーザーはこれらの設定を変更できません。 詳しくは、[&#x200B; ユーザーの役割と権限](user-roles-permissions.md)を参照してください。
+両方のグループのメンバーシップにより、左側のナビゲーションの&#x200B;**[!UICONTROL 管理]**&#x200B;の下に&#x200B;**[!UICONTROL 管理設定]**&#x200B;が表示されます。 標準ユーザーは、管理者が設定したフィールド、フィルター、プレイブックを使用して作業します。 設定されたオプトアウトフッターは、アウトバウンドメールに自動的に適用されます。 標準ユーザーはこれらの設定を変更できません。
 
->[!NOTE]
->
->ユーザーグループ名は、前述の手順に示すように正確に一致する必要があります。
+ユーザーグループ名は、前述の手順に示すように正確に一致する必要があります。
 
 オプションの`Sales Qualifier BDR managers` グループを作成することもできます。 このグループのメンバーは、メールパフォーマンスレポートにアクセスできます。
 
@@ -116,9 +118,7 @@ Salesforce システム管理者は、外部クライアントアプリ（接続
    * コールバック URL
    * Salesforce インスタンス URL
 
->[!IMPORTANT]
->
->電子メールでクライアントの秘密鍵を送信しないでください。 組織で承認済みのセキュアチャネルを使用して、Sales Qualifierに入力したユーザーと資格情報を共有します。
+手順は、ここで説明したようなものとは少し異なる場合があります。 詳しくは、[Salesforce ドキュメント &#x200B;](https://help.salesforce.com/s/)を参照してください。
 
 ### Salesforce インスタンス URLの検索
 
@@ -154,9 +154,9 @@ Microsoft Dynamics 365またはAzure管理者は、アプリケーションを�
 1. 左側のナビゲーションで、**[!UICONTROL 管理]**&#x200B;を展開し、**[!UICONTROL 管理者設定]**&#x200B;を選択します。
 1. **[!UICONTROL 統合]**&#x200B;の下の&#x200B;**[!UICONTROL CRM接続]**&#x200B;を選択します。
 
-   以前のバージョンのインターフェイスでは、この領域が&#x200B;**[!UICONTROL 管理]**&#x200B;の&#x200B;**[!UICONTROL 統合]**&#x200B;として表示される場合があります。
-
    SalesforceとMicrosoft Dynamicsのカードが表示されます。 非アクティブな接続には&#x200B;**[!UICONTROL Connect]**&#x200B;が表示されます。 設定された接続に&#x200B;**[!UICONTROL Connected]**&#x200B;と&#x200B;**[!UICONTROL Manage]**&#x200B;が表示されます。
+
+   ![Salesforce資格情報](assets/crm-salesforce-config.png){width="800" zoomable="yes"}
 
 1. 使用するCRMの&#x200B;**[!UICONTROL Connect]**&#x200B;を選択します。
 1. CRM管理者の資格情報とインスタンス URLを入力します。
@@ -164,18 +164,9 @@ Microsoft Dynamics 365またはAzure管理者は、アプリケーションを�
 
 ### CRM フィールドのインポート
 
-CRMを接続したら、インバウンドマッピングを設定して、Sales Qualifierに表示されるCRM フィールドを選択します。
+CRMを接続したら、インバウンドマッピングを設定して、Sales Qualifier内に表示されるCRM フィールドを決定します。 接続されたCRM カードで、**[!UICONTROL 管理]**&#x200B;を選択して&#x200B;**[!UICONTROL インバウンドマッピング]**&#x200B;を開き、読み込むフィールドを持つ各エンティティタイプのセクションを追加します。
 
-1. 接続されたCRM カードで、**[!UICONTROL 管理]**&#x200B;を選択して&#x200B;**[!UICONTROL インバウンドマッピング]**&#x200B;を開きます。
-1. 「**[!UICONTROL セクションを追加]**」を選択します。
-1. セクション名と説明を入力します。
-1. エンティティタイプを選択します。 **[!UICONTROL 見込み客]**&#x200B;がデフォルトで選択されています。 **[!UICONTROL 連絡先]**、**[!UICONTROL アカウント]**、**[!UICONTROL 商談]**&#x200B;も利用できます。
-1. 読み込むCRM フィールドを選択します。
-1. セクションをプレビューし、**[!UICONTROL 追加]**&#x200B;を選択します。
-
-見込み客フィールドは&#x200B;**[!UICONTROL 人物]** タブに表示され、アカウントフィールドは&#x200B;**[!UICONTROL アカウント]** タブに表示され、商談フィールドは&#x200B;**[!UICONTROL アカウント商談]** セクションに表示されます。 担当者がフィルターとして必要とするマッピング済みフィールドごとに&#x200B;**[!UICONTROL Filterable]**&#x200B;をオンにします。
-
-フィールドマッピングと同期の管理については、[統合](integrations.md#map-crm-fields-inbound-mapping)を参照してください。
+インポートしたフィールドをフィルターとして使用できるようにする方法など、完全な手順については、[CRM フィールドのマッピング（インバウンドマッピング） &#x200B;](integrations.md#map-crm-fields-inbound-mapping)を参照してください。
 
 ## 次の手順
 
@@ -183,4 +174,3 @@ CRMを接続したら、インバウンドマッピングを設定して、Sales
 >
 >* [見込み客](prospects.md)
 >* [&#x200B; アウトバウンドワークフロー](outbound-workflows.md)
->* [&#x200B; ユーザーの役割と権限](user-roles-permissions.md)

@@ -1,9 +1,9 @@
 ---
 user-guide-title: 販売修飾子
 user-guide-description: Sales Qualifierを使用して、B2B営業部門における見込み顧客のクオリフィケーション、アウトリーチ、バイヤーエンゲージメントを自動化する方法を紹介します。
-source-git-commit: 7000e83d987e182ef60ceb5c75531b280c96cf22
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '48'
 ht-degree: 27%
 
 ---
@@ -20,9 +20,7 @@ ht-degree: 27%
 + [タスク](tasks.md)
 + [アウトバウンドパフォーマンス](performance.md)
 + [プロファイル設定](profile-settings.md)
-+ [ナレッジセンター](knowledge-center.md)
 + [統合](integrations.md)
 + [マーケティングハイライトの設定](marketing-highlights-setup.md)
-+ [ユーザーの役割と権限](user-roles-permissions.md)
 + [AI チャット](ai-assistant.md)
 + [管理者設定](admin-settings.md)

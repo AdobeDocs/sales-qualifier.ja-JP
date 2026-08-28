@@ -12,10 +12,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
 workflow-type: tm+mt
-source-wordcount: 412
-ht-degree: 22%
+source-wordcount: 391
+ht-degree: 21%
 
 ---
 
@@ -108,7 +108,7 @@ AIを活用してパーソナライズされたメールで、目標主導型の
 
 AIのアウトリーチとマテリアル内の支援を基盤とするプレイブックを作成します。
 
-[ナレッジセンター](knowledge-center.md)
+[ナレッジセンター](admin-settings.md#knowledge-center)
 :::
 
 :::card
@@ -129,16 +129,6 @@ SalesforceやMicrosoft Dynamics 365と接続してフィールドをマッピン
 電子メール、署名、カレンダーの空き状況を設定します。
 
 [プロファイル設定](profile-settings.md)
-:::
-
-:::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
-
-ユーザーの役割と権限
-
-ユーザーと管理者のグループモデルについて説明します。
-
-[ユーザーの役割と権限](user-roles-permissions.md)
 :::
 
 :::card
