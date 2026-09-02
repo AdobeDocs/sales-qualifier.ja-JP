@@ -4,9 +4,16 @@ description: アプリケーションの使用を開始する前に、ユーザ�
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/-nfmFwZyZFUZhm-uQUjSyTvrORuqJgKSKnENWYtvubs'
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 4cd91e6f39b7ba30d5650fad1304c74a6d6c91f0
 workflow-type: tm+mt
 source-wordcount: 1015
@@ -19,13 +26,13 @@ ht-degree: 0%
 
 AdobeがSales Qualifierを組織にプロビジョニングした後、必要なユーザーグループを作成し、SalesforceまたはMicrosoft Dynamics 365に接続する必要があります。[!DNL Marketo]
 
-![Sales Qualifier ホームページ ](assets/homepage.png){width="800" zoomable="yes"}
+![Sales Qualifier ホームページ &#x200B;](assets/homepage.png){width="800" zoomable="yes"}
 
 ## ユーザーグループの設定
 
 Adobe Admin Consoleのユーザーグループは、Sales Qualifierへのアクセスを制御するために使用されます。 ユーザーがログインするには、両方のグループを作成する必要があります。
 
-グループの設定について詳しくは、[Adobe Admin Console ドキュメント ](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html)を参照してください。
+グループの設定について詳しくは、[Adobe Admin Console ドキュメント &#x200B;](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html)を参照してください。
 
 >[!PREREQUISITES]
 >
@@ -50,7 +57,7 @@ Adobe Admin Consoleのユーザーグループは、Sales Qualifierへのアク�
 
 ### Sales Qualifier管理者
 
-CRM接続、[ ナレッジセンター](admin-settings.md#knowledge-center)、およびグローバルメールオプトアウト設定を設定する管理者も、`Sales Qualifier Admins` ユーザーグループに属している必要があります。
+CRM接続、[&#x200B; ナレッジセンター](admin-settings.md#knowledge-center)、およびグローバルメールオプトアウト設定を設定する管理者も、`Sales Qualifier Admins` ユーザーグループに属している必要があります。
 
 1. Adobe Admin Consoleで、**[!UICONTROL Users]** > **[!UICONTROL User groups]** > **[!UICONTROL New user group]**&#x200B;を選択します。
 1. グループ名に「`Sales Qualifier Admins`」と入力し、**[!UICONTROL 保存]**&#x200B;を選択します。
@@ -111,7 +118,7 @@ Salesforce システム管理者は、外部クライアントアプリ（接続
    * コールバック URL
    * Salesforce インスタンス URL
 
-手順は、ここで説明したようなものとは少し異なる場合があります。 詳しくは、[Salesforce ドキュメント ](https://help.salesforce.com/s/)を参照してください。
+手順は、ここで説明したようなものとは少し異なる場合があります。 詳しくは、[Salesforce ドキュメント &#x200B;](https://help.salesforce.com/s/)を参照してください。
 
 ### Salesforce インスタンス URLの検索
 
@@ -159,11 +166,11 @@ Microsoft Dynamics 365またはAzure管理者は、アプリケーションを�
 
 CRMを接続したら、インバウンドマッピングを設定して、Sales Qualifier内に表示されるCRM フィールドを決定します。 接続されたCRM カードで、**[!UICONTROL 管理]**&#x200B;を選択して&#x200B;**[!UICONTROL インバウンドマッピング]**&#x200B;を開き、読み込むフィールドを持つ各エンティティタイプのセクションを追加します。
 
-インポートしたフィールドをフィルターとして使用できるようにする方法など、完全な手順については、[CRM フィールドのマッピング（インバウンドマッピング） ](integrations.md#map-crm-fields-inbound-mapping)を参照してください。
+インポートしたフィールドをフィルターとして使用できるようにする方法など、完全な手順については、[CRM フィールドのマッピング（インバウンドマッピング） &#x200B;](integrations.md#map-crm-fields-inbound-mapping)を参照してください。
 
 ## 次の手順
 
 >[!MORELIKETHIS]
 >
 >* [見込み客](prospects.md)
->* [ アウトバウンドワークフロー](outbound-workflows.md)
+>* [&#x200B; アウトバウンドワークフロー](outbound-workflows.md)

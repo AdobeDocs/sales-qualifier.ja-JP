@@ -4,8 +4,11 @@ description: CRM フィールド、アクティビティの同期、メールオ
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/vbtO6I67ZEaZz3oio9InNErvq5D0wjbRxyDZpTq8Lzo'
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
 internal-label: Administration
 source-git-commit: f1202dc6d5657875b6cdc35a0116e31cabebf9be
 workflow-type: tm+mt
@@ -75,7 +78,7 @@ CRMが接続されたら、接続の&#x200B;**[!UICONTROL 管理]**&#x200B;を�
 
 **[!UICONTROL ナレッジセンター]**&#x200B;では、Account Qualification Agent （AQA）が販売資料にアクセスできます。 Sales Qualifierは、これらの学習リソースを利用して、調査、選定インサイト、自社の販売方法を反映したアウトリーチを生成します。 プレイブックを作成および管理できるのは管理者のみです。
 
-![ ナレッジセンター](assets/knowledge-center.png){width="800" zoomable="yes"}
+![&#x200B; ナレッジセンター](assets/knowledge-center.png){width="800" zoomable="yes"}
 
 1. 左側のナビゲーションで、**[!UICONTROL 管理]**&#x200B;を展開し、**[!UICONTROL 管理者設定]**&#x200B;を選択し、**[!UICONTROL ナレッジセンター]**&#x200B;を選択します
 1. u
@@ -91,8 +94,8 @@ CRMが接続されたら、接続の&#x200B;**[!UICONTROL 管理]**&#x200B;を�
 
 プレイブックの準備ができたら、担当者は次の2つの場所で使用できます。
 
-* **送信メールプロンプト** - タッチポイントプロンプトで、ドキュメントに名前を付け、使用するコンテキストを記述します。 例えば、`Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`と入力します。 [ タッチポイントの生成とレビュー](outbound-workflows.md#step-3-generate-and-review-touchpoints)を参照してください。
-* **AI チャット**：質問のナレッジセンターを参照してください。 例えば、`From the Knowledge Center, help me position our security solution for ABC Corp before tomorrow's call`と入力します。 [AI チャット ](ai-assistant.md)を参照してください。
+* **送信メールプロンプト** - タッチポイントプロンプトで、ドキュメントに名前を付け、使用するコンテキストを記述します。 例えば、`Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`と入力します。 [&#x200B; タッチポイントの生成とレビュー](outbound-workflows.md#step-3-generate-and-review-touchpoints)を参照してください。
+* **AI チャット**：質問のナレッジセンターを参照してください。 例えば、`From the Knowledge Center, help me position our security solution for ABC Corp before tomorrow's call`と入力します。 [AI チャット &#x200B;](ai-assistant.md)を参照してください。
 
 どちらの場合も、生成されたコンテンツは、一般的な調査ではなく、プレイブックのメッセージを反映します。
 
