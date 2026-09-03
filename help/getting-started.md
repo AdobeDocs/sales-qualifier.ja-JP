@@ -14,7 +14,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
+source-git-commit: 4cd91e6f39b7ba30d5650fad1304c74a6d6c91f0
 workflow-type: tm+mt
 source-wordcount: 1015
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 AdobeがSales Qualifierを組織にプロビジョニングした後、必要なユーザーグループを作成し、SalesforceまたはMicrosoft Dynamics 365に接続する必要があります。[!DNL Marketo]
 
-[Sales Qualifier ホームページ](assets/homepage.png){width="800" zoomable="yes"}
+![Sales Qualifier ホームページ &#x200B;](assets/homepage.png){width="800" zoomable="yes"}
 
 ## ユーザーグループの設定
 

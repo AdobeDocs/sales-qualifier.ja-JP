@@ -9,9 +9,9 @@ product_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+source-git-commit: f1202dc6d5657875b6cdc35a0116e31cabebf9be
 workflow-type: tm+mt
-source-wordcount: 900
+source-wordcount: 904
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 **[!UICONTROL タスク]**&#x200B;を使用して、アウトバウンドワークフローによって生成されたアクションを完了します。 タスクを選択してアクションを実行し、タスクを完了とマークして、ページを離れることなく次のタスクに進みます。
 
 左側のナビゲーションで、**[!UICONTROL アクティビティ]** > **[!UICONTROL タスク]**&#x200B;に移動します。
+
+![&#x200B; タスクパネル &#x200B;](assets/tasks.png)
 
 ## タスクビュー
 
@@ -43,6 +45,8 @@ ht-degree: 0%
 * **[!UICONTROL LinkedIn InMail]** – ケイデンスがLinkedIn InMail ステップに達したときに作成されます。 ワークパネルに、LinkedInからコピーして送信するコンテンツが表示されます。 **[!UICONTROL AIの根拠]**&#x200B;を展開して、根拠を確認します。
 
 * **[!UICONTROL メールレビュー]**—Sales Qualifierが見込み客のパーソナライズされたメールを生成した後に作成されます。 **[!UICONTROL 電子メールを確認]**&#x200B;を選択して、アウトリーチが始まる前にドラフトを確認し、承認します。 [生成された電子メールの確認と調整](outbound-workflows.md#review-and-refine-generated-emails)を参照してください。
+
+![&#x200B; メールレビュー](assets/tasks-review.png)
 
 ### 作業パネル
 
