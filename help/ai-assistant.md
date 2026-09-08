@@ -4,17 +4,13 @@ description: Sales QualifierのAI チャットを使用して、CRM、エンゲ�
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/LHCHAk0rsNwLsKFhKMlHaLL7xkkCEAKFNDMEonb2TdQ'
-product_v2:
-  - id: d98caee2-fd67-486e-9513-36435358ebff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
+product_v2: id: d98caee2-fd67-486e-9513-36435358ebff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+source-git-commit: c7f4e1b7adc4b3420ea5f16c3b426c40bb300d45
 workflow-type: tm+mt
-source-wordcount: 404
+source-wordcount: 725
 ht-degree: 1%
 
 ---
@@ -24,7 +20,7 @@ ht-degree: 1%
 
 AI チャットは、セールスコンテキストにもとづいて自然言語の質問に回答します。 Sales Qualifierから直接、アカウントの調査、電話対応、アウトリーチのドラフト作成、作業の優先順位付けをおこなうことができます。
 
-![AI チャット ボタン &#x200B;](assets/ai-chat.png){width="800" zoomable="yes"}
+![AI チャット ボタン ](assets/ai-chat.png){width="800" zoomable="yes"}
 
 ## AI チャットを開く
 
@@ -38,7 +34,7 @@ AI チャットは、セールスコンテキストにもとづいて自然言�
 
 AI Chatでは、次のソースを使用できます。
 
-* [&#x200B; ナレッジセンター](admin-settings.md#knowledge-center)にある組織のプレイブック。
+* [ ナレッジセンター](admin-settings.md#knowledge-center)にある組織のプレイブック。
 * リード、取引先責任者、アカウント、商談、アクティビティなど、連携されたCRM。
 * [!DNL Marketo]のアクティビティとエンゲージメントのデータ。
 * アカウント調査とAccount Qualification Agentによって収集された最近のニュース。
@@ -46,7 +42,7 @@ AI Chatでは、次のソースを使用できます。
 
 ## AI チャットを使用
 
-AI チャットを使用するタスク：
+次のようなタスクにAI チャットを活用します。
 
 * **調査と要約**：アカウント、購買グループ、または見込み客の最近のエンゲージメントの概要を求めます。
 * **ポジショニングの構築**：会議の前に、アシスタントに特定のアカウントに対するソリューションのポジショニングを依頼します。
@@ -54,9 +50,62 @@ AI チャットを使用するタスク：
 * **推奨事項を取得**：優先順位を付ける見込み客またはアカウントを尋ねるか、新しいアウトバウンドワークフローの目標または頻度をリクエストします。
 * **連絡先の詳細を検索**：見込み客に連絡先と背景に関する詳細な情報を提供するように、アシスタントに依頼します。
 
+## 接続されたデータ全体でAI チャットを尋ねる
+
+AI チャットは、Sales Qualifier、CRM、[!DNL Marketo]、[!DNL Adobe Journey Optimizer B2B Edition]、企業インテリジェンスデータに関する質問に答えることができます。 平易な言葉で質問することで、情報を検索したり、コンテキストを抽出したりできます。 AI Chatは、データを読み取り、レポートを作成します。何も作成、編集、起動することはありません。
+
+ここでは、プロンプトの例をいくつか紹介します。 プロンプトを具体的に示せば示すほど、より的を絞った結果を得ることができます。
+
+見込客とアカウント：
+
+* 「エンゲージメントステータスが新規の見込み客を検索」
+* 「会社のAdobeを調査してください」
+* 「見込み客の完全なプロファイルを教えてください」
+* 「過去30日間のアウトバウンドパフォーマンスを表示する」
+* 「過去30日間に予約された会議を一覧表示します。」
+
+ナレッジセンター：
+
+* 「価格上の異議を取り扱う上で、どのような担保を持っていますか？」
+* 「競合他社と比較した主な差別化要因は何か？」
+* 「ナレッジセンターのドキュメントのリスト」
+* 「文書の要約」
+
+CRM:
+
+* 「開かれた機会をリストアップする」
+* 「名前とメールアドレスを持つ最初の5つのリードをリストアップしてください。」
+* 「リードまたはアカウントの営業活動の表示」
+
+[!DNL Marketo]:
+
+* 「スマートキャンペーンを参照します」
+* 「獲得という名前のスマートリストを取得します。」
+* 「私のプログラムを参照するか、名前でプログラムを取得します。」
+* 「アクティビティタイプを[!DNL Marketo]個表示します。」
+
+[!DNL Adobe Journey Optimizer B2B Edition]:
+
+* 「どれだけのジャーニーがあるの？」
+* 「ペルソナ別のオーディエンスのセグメンテーション方法は？」
+* 「私のアカウントにはどのようなランディングページがありますか？」
+* 「スコアリングに追加するリードフィールドはどれですか？」
+
+企業インテリジェンス：
+
+* 「企業はどのような技術を使用していますか？」
+* &quot;会社の最近のニュースを表示する&quot;。
+* 「特定の企業に類似した企業を見つける。」
+* 「企業のオープン求人をリストアップする」
+
+### 現在の範囲と限界
+
+* AI チャットにより、データを読み取り、レポートを作成できます。 何かを作成、編集、または起動することはありません。 例えば、プログラムを作成したり、キャンペーンを開始したり、リストを編集したりすることはありません。
+* AI Chatは情報を検索します。レポートツールではありません。 四半期のメールの健全性や、過去10日間に作成されたリードのリストなど、[!DNL Marketo]形式の分析やトレンドを長期的に構築するものではありません。 これらのタスクには、ネイティブ [!DNL Marketo] レポートを使用します。
+
 ## プレイブック内の回答のグラウンド
 
-[&#x200B; ナレッジセンター](admin-settings.md#knowledge-center) プレイブックを使用するには、質問のナレッジセンターを参照してください。 例：
+[ ナレッジセンター](admin-settings.md#knowledge-center) プレイブックを使用するには、質問のナレッジセンターを参照してください。 例：
 
 `From the Knowledge Center, help me position our security solution for ABC Corp ahead of tomorrow's call.`
 
@@ -78,6 +127,6 @@ AI チャットの利用には、Adobeの生成AIに関する条件が適用さ�
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ナレッジセンター](admin-settings.md#knowledge-center)
+>* [ ナレッジセンター](admin-settings.md#knowledge-center)
 >* [アカウント](accounts.md)
->* [&#x200B; アウトバウンドワークフロー](outbound-workflows.md)
+>* [ アウトバウンドワークフロー](outbound-workflows.md)

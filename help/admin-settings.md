@@ -4,15 +4,12 @@ description: CRM フィールド、アクティビティの同期、メールオ
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/vbtO6I67ZEaZz3oio9InNErvq5D0wjbRxyDZpTq8Lzo'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
 internal-label: Administration
-source-git-commit: f1202dc6d5657875b6cdc35a0116e31cabebf9be
+source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
 workflow-type: tm+mt
-source-wordcount: 845
+source-wordcount: 1089
 ht-degree: 0%
 
 ---
@@ -74,11 +71,39 @@ CRMが接続されたら、接続の&#x200B;**[!UICONTROL 管理]**&#x200B;を�
 
 アクティビティの同期がオフの場合、Sales Qualifierは引き続きインバウンド CRM データを使用しますが、アウトリーチアクティビティをCRMまたはMarketoに同期しません。
 
+## CRM同期ルールの設定
+
+Sales Qualifierでは、見込み客がアウトバウンドワークフローを通過する際に、リードステータスがSalesforceおよびMicrosoft Dynamicsに自動的に更新されるため、担当者はCRMを手作業で更新する必要がなくなります。
+
+### CRM同期ルールの機能
+
+更新は、リードだけでなく、**[!UICONTROL リード]**、**[!UICONTROL コンタクト]**、**[!UICONTROL アカウント]**、または&#x200B;**[!UICONTROL 商談]** レコードをターゲットにできます。
+
+次のアウトバウンドワークフローのモーメントに対して更新が実行されます。
+
+* ワークフローに追加された、返信された、またはミーティングが予約された
+* 担当者またはワークフローによって削除されました。返信なし
+* オプトアウトまたは電子メールのバウンス
+
+フィールド値は動的なトークンでパーソナライズできるため、CRMの更新では、静的な値ではなく見込み客の実際のジャーニーを反映できます。 トークンは、代表者の名前、アウトバウンドワークフロー名、ミーティングの日時などの詳細を確認できます。
+
+CRMと互換性のある値のみが書き込まれ、1つの失敗したフィールドが他のフィールドをブロックせず、一時的な問題が自動的に再試行されます。 すべての更新を追跡して、同期した項目と注意が必要な項目を確認できます。
+
+### CRM同期ルールの設定
+
+CRM同期ルールを設定するには、次の手順に従います。
+
+1. 左側のナビゲーションで、**[!UICONTROL 管理]**&#x200B;を展開し、**[!UICONTROL 管理者設定]** > **[!UICONTROL CRM接続]**&#x200B;を選択します。
+1. 接続されたCRMの&#x200B;**[!UICONTROL 管理]**&#x200B;を選択し、**[!UICONTROL 同期ルール]**&#x200B;を選択します。
+1. ターゲット CRM エンティティとフィールドを選択し、上記のワークフローモーメントにマッピングして、切り替えをオンにします。
+
+CRM同期ルールを設定すれば、セールス部門は、リード、取引先責任者、アカウント、商談のあらゆる段階において、正確かつパーソナライズされた最新のステータスを確認できるようになります。これにより、データ収集の遅延が低減され、手作業による作業が削減されます。
+
 ## ナレッジセンタープレイブックの作成 {#knowledge-center}
 
 **[!UICONTROL ナレッジセンター]**&#x200B;では、Account Qualification Agent （AQA）が販売資料にアクセスできます。 Sales Qualifierは、これらの学習リソースを利用して、調査、選定インサイト、自社の販売方法を反映したアウトリーチを生成します。 プレイブックを作成および管理できるのは管理者のみです。
 
-![&#x200B; ナレッジセンター](assets/knowledge-center.png){width="800" zoomable="yes"}
+![ ナレッジセンター](assets/knowledge-center.png){width="800" zoomable="yes"}
 
 1. 左側のナビゲーションで、**[!UICONTROL 管理]**&#x200B;を展開し、**[!UICONTROL 管理者設定]**&#x200B;を選択し、**[!UICONTROL ナレッジセンター]**&#x200B;を選択します
 1. u
@@ -94,8 +119,8 @@ CRMが接続されたら、接続の&#x200B;**[!UICONTROL 管理]**&#x200B;を�
 
 プレイブックの準備ができたら、担当者は次の2つの場所で使用できます。
 
-* **送信メールプロンプト** - タッチポイントプロンプトで、ドキュメントに名前を付け、使用するコンテキストを記述します。 例えば、`Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`と入力します。 [&#x200B; タッチポイントの生成とレビュー](outbound-workflows.md#step-3-generate-and-review-touchpoints)を参照してください。
-* **AI チャット**：質問のナレッジセンターを参照してください。 例えば、`From the Knowledge Center, help me position our security solution for ABC Corp before tomorrow's call`と入力します。 [AI チャット &#x200B;](ai-assistant.md)を参照してください。
+* **送信メールプロンプト** - タッチポイントプロンプトで、ドキュメントに名前を付け、使用するコンテキストを記述します。 例えば、`Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`と入力します。 [ タッチポイントの生成とレビュー](outbound-workflows.md#step-3-generate-and-review-touchpoints)を参照してください。
+* **AI チャット**：質問のナレッジセンターを参照してください。 例えば、`From the Knowledge Center, help me position our security solution for ABC Corp before tomorrow's call`と入力します。 [AI チャット ](ai-assistant.md)を参照してください。
 
 どちらの場合も、生成されたコンテンツは、一般的な調査ではなく、プレイブックのメッセージを反映します。
 
