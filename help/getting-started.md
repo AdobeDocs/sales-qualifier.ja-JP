@@ -32,7 +32,7 @@ AdobeがSales Qualifierを組織にプロビジョニングした後、必要な
 
 Adobe Admin Consoleのユーザーグループは、Sales Qualifierへのアクセスを制御するために使用されます。 ユーザーがログインするには、両方のグループを作成する必要があります。
 
-グループの設定について詳しくは、[Adobe Admin Console ドキュメント &#x200B;](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html)を参照してください。
+グループの設定について詳しくは、[Adobe Admin Console ドキュメント &#x200B;](https://helpx.adobe.com/jp/business/enterprise/users/users-and-groups/user-groups.html)を参照してください。
 
 >[!PREREQUISITES]
 >
