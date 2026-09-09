@@ -14,9 +14,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4cd91e6f39b7ba30d5650fad1304c74a6d6c91f0
+source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
 workflow-type: tm+mt
-source-wordcount: 1015
+source-wordcount: 1017
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Adobe Admin Consoleのユーザーグループは、Sales Qualifierへのアク�
 
 これらの手順はAdobe Admin Consoleで行われます。
 
-1. 9点アプリ切り替えツールから、**[!UICONTROL Admin Console]**&#x200B;を選択します。
+1. アプリスイッチャーから、**[!UICONTROL Admin Console]**&#x200B;を選択します。
 1. **[!UICONTROL ユーザー]** > **[!UICONTROL ユーザーグループ]** > **[!UICONTROL 新しいユーザーグループ]**&#x200B;を選択します。
 1. グループ名に「`Sales Qualifier`」と入力し、**[!UICONTROL 保存]**&#x200B;を選択します。
 1. **[!UICONTROL 割り当てられた製品プロファイル]**&#x200B;を開き、**[!UICONTROL プロファイルの割り当て]**&#x200B;を選択します。
@@ -72,7 +72,7 @@ CRM接続、[&#x200B; ナレッジセンター](admin-settings.md#knowledge-cent
 
 ## CRMとの接続
 
-Sales QualifierをSalesforceまたはMicrosoft Dynamics 365に接続すると、BDRは、利用者、リード、取引先責任者、アカウント、商談、オーナーの割り当て、関連するアクティビティを包括的に把握できます。 最初の接続では、このCRM データへの読み取り専用アクセスが必要です。 Sales Qualifierを接続する前に、CRM管理者と協力して資格情報を準備します。 統合の詳細については、[統合](integrations.md)を参照してください。
+Sales QualifierをSalesforceまたはMicrosoft Dynamics 365に接続すると、BDRは、利用者、リード、取引先責任者、アカウント、商談、オーナーの割り当て、関連するアクティビティを包括的に把握できます。 最初の接続では、このCRM データへの読み取り専用アクセスが必要です。 Sales Qualifierを接続する前に資格情報を準備するには、CRM管理者と協力してください。 統合の詳細については、[統合](integrations.md)を参照してください。
 
 >[!PREREQUISITES]
 >
@@ -93,7 +93,7 @@ Salesforce システム管理者は、外部クライアントアプリ（接続
 >* すべてのデータを変更
 >* 接続済みアプリの管理
 >
->_接続済みアプリの管理_&#x200B;がなければ、管理者はクライアント IDとクライアント シークレットを表示できません。
+>管理者は、クライアント IDとクライアント シークレットを表示するために&#x200B;_接続されたアプリを管理_&#x200B;する必要があります。
 
 1. Salesforceで、**[!UICONTROL Setup]** > **[!UICONTROL App Manager]**&#x200B;に移動し、**[!UICONTROL 新しい接続アプリ]**&#x200B;または&#x200B;**[!UICONTROL 新しい外部クライアントアプリ]**&#x200B;を選択します。
 1. アプリケーション名と管理者の連絡先メールを入力します。
@@ -118,7 +118,7 @@ Salesforce システム管理者は、外部クライアントアプリ（接続
    * コールバック URL
    * Salesforce インスタンス URL
 
-手順は、ここで説明したようなものとは少し異なる場合があります。 詳しくは、[Salesforce ドキュメント &#x200B;](https://help.salesforce.com/s/)を参照してください。
+手順は、ここで説明するのとは少し異なります。 詳しくは、[Salesforce ドキュメント &#x200B;](https://help.salesforce.com/s/?language=en_US)を参照してください。
 
 ### Salesforce インスタンス URLの検索
 
@@ -142,7 +142,7 @@ Microsoft Dynamics 365またはAzure管理者は、アプリケーションを�
 1. 登録したMicrosoft Entra アプリケーションを選択します。
 1. リード、取引先責任者、アカウント、商談、アクティビティへの読み取りアクセス権を付与するセキュリティ役割を割り当てます。
 
-   セキュリティロールが必要です。 スキーマがなければ、アプリケーションはDynamics データにアクセスできません。
+   セキュリティロールが必要です。 アプリケーションがDynamics データにアクセスするには、セキュリティの役割が必要です。
 
 1. クライアント ID、クライアントシークレット、テナント ID、およびDynamics インスタンス URLを収集します。 規範的なURL フォーム `https://{{mydomain}}.crm.dynamics.com`を使用します。
 
