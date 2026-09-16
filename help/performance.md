@@ -1,24 +1,24 @@
 ---
-title: Sales Qualifierのアウトバウンドパフォーマンス
-description: Sales Qualifierで組織のパフォーマンスレポートとキャンペーンパフォーマンスレポートを確認して、アウトバウンドアクティビティと結果を追跡する方法について説明します。
+title: Adobe Marketo修飾子のアウトバウンドパフォーマンス
+description: Adobe Marketo Qualifierで組織のパフォーマンスレポートとキャンペーンパフォーマンスレポートを確認して、アウトバウンドアクティビティと結果を追跡する方法について説明します。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/ofBw7JHKkkQaPOeUZ6rreLDAhAfineLveBeVYK-CerQ'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
+    internal-label: CX Enterprise
+Outbound Workflows    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 401
+source-wordcount: '404'
 ht-degree: 0%
-
 ---
 
-
-# Sales Qualifierのアウトバウンドパフォーマンス
+# Adobe Marketo修飾子のアウトバウンドパフォーマンス
 
 左側のナビゲーションで、**[!UICONTROL アウトバウンドパフォーマンス]**&#x200B;を選択して、チーム全体のアウトバウンドアクティビティと結果を追跡します。 ダッシュボードには、**[!UICONTROL 組織パフォーマンス]**&#x200B;と&#x200B;**[!UICONTROL キャンペーンパフォーマンス]**&#x200B;の2つのビューがあります。
 
-![&#x200B; アウトバウンドパフォーマンス &#x200B;](assets/outbound-performance.png){width="800" zoomable="yes"}
+![ アウトバウンドパフォーマンス ](assets/outbound-performance.png){width="800" zoomable="yes"}
 
 ## フィルターと期間
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 * **週別メール傾向チャート**：週ごとのメールアクティビティ。
 * 代表的なメールパフォーマンステーブル。
 
-Sales Qualifierでは、不在の返信やバウンスに対して個別のステータスを割り当てるため、見込み顧客とのエンゲージメントから区別できます。
+Marketo Qualifierでは、不在の返信やバウンスに個別のステータスが割り当てられるため、見込み顧客のエンゲージメントと区別することができます。
 
 ### 「タスク」タブ
 
@@ -66,9 +66,9 @@ Sales Qualifierでは、不在の返信やバウンスに対して個別のス�
 * **キャンペーン指標のトレンド チャート**：選択した期間のキャンペーン KPI。
 * **[!UICONTROL キャンペーン]**&#x200B;のテーブル：各キャンペーンの電子メール、会議、電話、LinkedIn メッセージのアクティビティ。 キャンペーンの代表レベルの詳細を表示するには、その行を展開します。
 
-予約の生成方法については、[&#x200B; ミーティング予約](outbound-workflows.md#meeting-booking)を参照してください。
+予約の生成方法については、[ ミーティング予約](outbound-workflows.md#meeting-booking)を参照してください。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; アウトバウンドワークフロー](outbound-workflows.md)
+>* [ アウトバウンドワークフロー](outbound-workflows.md)
 >* [タスク](tasks.md)

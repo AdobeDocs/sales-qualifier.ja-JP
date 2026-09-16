@@ -1,21 +1,22 @@
 ---
-title: Sales Qualifierのタスク
-description: Sales Qualifierのタスクキューで、手作業によるアウトリーチタスクを処理し、担当者が提案した見込み客をレビューする方法を説明します。
+title: Adobe Marketo修飾子のタスク
+description: Adobe Marketo選定タスクキューで、手作業によるアウトリーチタスクを処理し、エージェントが提案した見込み客をレビューする方法を説明します。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/MbTN1r-ARrW-XYtdIS-KZT7K1Lk-B3GihT8iXL60GrQ'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f1202dc6d5657875b6cdc35a0116e31cabebf9be
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 904
+source-wordcount: '907'
 ht-degree: 0%
-
 ---
-
 
 # タスク
 
@@ -23,7 +24,7 @@ ht-degree: 0%
 
 左側のナビゲーションで、**[!UICONTROL アクティビティ]** > **[!UICONTROL タスク]**&#x200B;に移動します。
 
-![&#x200B; タスクパネル &#x200B;](assets/tasks.png)
+![ タスクパネル ](assets/tasks.png)
 
 ## タスクビュー
 
@@ -44,9 +45,9 @@ ht-degree: 0%
 
 * **[!UICONTROL LinkedIn InMail]** – ケイデンスがLinkedIn InMail ステップに達したときに作成されます。 ワークパネルに、LinkedInからコピーして送信するコンテンツが表示されます。 **[!UICONTROL AIの根拠]**&#x200B;を展開して、根拠を確認します。
 
-* **[!UICONTROL メールレビュー]**—Sales Qualifierが見込み客のパーソナライズされたメールを生成した後に作成されます。 **[!UICONTROL 電子メールを確認]**&#x200B;を選択して、アウトリーチが始まる前にドラフトを確認し、承認します。 [生成された電子メールの確認と調整](outbound-workflows.md#review-and-refine-generated-emails)を参照してください。
+* **[!UICONTROL メールレビュー]**—Adobe Marketo修飾子が見込み客のパーソナライズされたメールを生成した後に作成されます。 **[!UICONTROL 電子メールを確認]**&#x200B;を選択して、アウトリーチが始まる前にドラフトを確認し、承認します。 [生成された電子メールの確認と調整](outbound-workflows.md#review-and-refine-generated-emails)を参照してください。
 
-![&#x200B; メールレビュー](assets/tasks-review.png)
+![ メールレビュー](assets/tasks-review.png)
 
 ### 作業パネル
 
@@ -101,7 +102,7 @@ ht-degree: 0%
 
 ## エージェントの提案
 
-「**[!UICONTROL エージェントの提案]**」タブには、アウトバウンドワークフローのターゲティング条件に一致し、登録に推奨される見込み顧客が一覧表示されます。 レコメンデーションを有効にするには、[&#x200B; アウトバウンドワークフロー](outbound-workflows.md)を参照してください。
+「**[!UICONTROL エージェントの提案]**」タブには、アウトバウンドワークフローのターゲティング条件に一致し、登録に推奨される見込み顧客が一覧表示されます。 レコメンデーションを有効にするには、[ アウトバウンドワークフロー](outbound-workflows.md)を参照してください。
 
 推奨を選択して、作業パネルでレビューします。
 
@@ -117,7 +118,7 @@ ht-degree: 0%
 
 ## アウトバウンドワークフローからのタスクの完了
 
-アウトバウンドワークフローの&#x200B;**[!UICONTROL エンゲージメント済み見込み顧客]** ビューでは、手動タッチポイントが、完了と同じ&#x200B;**[!UICONTROL マーク]**、**[!UICONTROL スキップ]**、およびメモのオプションを提供します。 タスクを完了すると、**[!UICONTROL タスク]** ページのステータスも更新されます。 [&#x200B; アウトバウンドワークフロー](outbound-workflows.md)を参照してください。
+アウトバウンドワークフローの&#x200B;**[!UICONTROL エンゲージメント済み見込み顧客]** ビューでは、手動タッチポイントが、完了と同じ&#x200B;**[!UICONTROL マーク]**、**[!UICONTROL スキップ]**、およびメモのオプションを提供します。 タスクを完了すると、**[!UICONTROL タスク]** ページのステータスも更新されます。 [ アウトバウンドワークフロー](outbound-workflows.md)を参照してください。
 
 ## 空の状態
 
@@ -127,6 +128,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; アウトバウンドワークフロー](outbound-workflows.md)
->* [&#x200B; アウトバウンドパフォーマンス &#x200B;](performance.md)
+>* [ アウトバウンドワークフロー](outbound-workflows.md)
+>* [ アウトバウンドパフォーマンス ](performance.md)
 >* [見込み客](prospects.md)

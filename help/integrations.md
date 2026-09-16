@@ -1,34 +1,38 @@
 ---
 title: 統合の管理
-description: Outlookの接続、CRM接続の管理、インバウンドフィールドのマッピング、アクティビティの同期、Sales Qualifierでのグローバルメールオプトアウトの設定方法について説明します。
+description: Adobe Marketo Qualifierで、Outlookの接続、CRM接続の管理、インバウンドフィールドのマッピング、アクティビティの同期、グローバルメールオプトアウトの設定方法を説明します。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User, Admin
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 1377
+source-wordcount: '1379'
 ht-degree: 1%
-
 ---
-
 
 # 統合
 
-Outlookを接続して、電子メールを送信したり、見込み客の返信を認識したり、ミーティングをスケジュールしたりできます。 リード、取引先責任者、アカウント、商談、アクティビティ、およびオーナーをAccount Qualification Agent（AQA）およびアウトバウンドワークフローで利用できるようにするには、Sales QualifierをSalesforceまたはMicrosoft Dynamics 365に接続することもできます。 Sales Qualifierは、CRM データを読み取り、アウトリーチアクティビティとオプトアウトステータスをCRMに書き込み、アウトリーチアクティビティをMarketoに同期できます。 CRM レコードは変更されません。
+Outlookを接続して、電子メールを送信したり、見込み客の返信を認識したり、ミーティングをスケジュールしたりできます。 リード、取引先責任者、アカウント、商談、アクティビティ、およびオーナーをAccount Qualification Agent（AQA）およびアウトバウンドワークフローで利用できるようにするには、Adobe Marketo QualifierをSalesforceまたはMicrosoft Dynamics 365に接続することもできます。 Marketo Qualifierは、CRM データを読み取り、アウトリーチアクティビティとオプトアウトステータスをCRMに書き戻し、アウトリーチアクティビティをMarketoに同期できます。 CRM レコードは変更されません。
 
 この記事では、Outlookの接続、CRM接続の管理、フィールドのマッピング、アクティビティの同期、メール オプトアウトの設定方法について説明します。 CRMを初めて接続する場合は、[開始](getting-started.md#connect-your-crm)を参照してください。
 
 >[!IMPORTANT]
 >
->Outlookの接続は担当者ごとに行われます。 この記事で後述するCRMとコンプライアンスの設定は、組織全体に適用されます。 これらの組織全体の設定にアクセスするには、`Sales Qualifier`および`Sales Qualifier Admins` ユーザーグループに属している必要があります。 標準ユーザーは、設定されたCRM データとフィルターを使用できますが、設定を変更することはできません。
+>Outlookの接続は担当者ごとに行われます。 この記事で後述するCRMとコンプライアンスの設定は、組織全体に適用されます。 これらの組織全体の設定にアクセスするには、`Marketo Qualifier`および`Marketo Qualifier Admins` ユーザーグループに属している必要があります。 標準ユーザーは、設定されたCRM データとフィルターを使用できますが、設定を変更することはできません。
 
 ## Outlookの接続
 
@@ -38,9 +42,9 @@ Outlookを接続して、電子メールを送信したり、見込み客の返�
 1. Microsoft アカウントでログインします。
 1. 要求されたアクセスを確認して承認します。
 
-この連携により、Sales Qualifierはメールボックスから送信したり、見込み客がいつ返信するかを認識したり、カレンダーでミーティングをスケジュールしたりできます。
+この接続により、Marketo Qualifierがメールボックスから送信し、見込み客がいつ返信するかを認識し、カレンダーでミーティングをスケジュールすることができます。
 
-接続すると、Sales Qualifierで次の操作が可能になるアクセス権を承認します。
+接続すると、Marketo修飾子に次の操作を許可するアクセス権を承認します。
 
 * 見込み客からの返信を識別：
 * 電子メールの作成と送信。
@@ -52,11 +56,11 @@ Outlookを接続して、電子メールを送信したり、見込み客の返�
 
 デフォルトでは、管理者の操作は必要ありません。 各担当者は、Outlookに接続する際に、自分でアクセスを承認します。
 
-Microsoft 365またはMicrosoft Entraのサードパーティアプリに対するユーザーの同意をオフにしている場合、Microsoft 365またはEntra管理者は、組織全体に対してSales Qualifierを1回承認する必要があります。 管理者は、担当者がOutlook アカウントを接続する前に、この承認を完了します。 組織全体での承認が完了すると、各担当者はアカウントを連携させることができます。
+Microsoft 365またはMicrosoft Entraのサードパーティアプリに対するユーザーの同意をオフにしている場合、Microsoft 365またはEntra管理者は、組織全体に対してMarketo Qualifierを1回承認する必要があります。 管理者は、担当者がOutlook アカウントを接続する前に、この承認を完了します。 組織全体での承認が完了すると、各担当者はアカウントを連携させることができます。
 
-### Sales Qualifierでのメールボックスデータの取り扱い
+### Marketo Qualifierによるメールボックスデータの処理方法
 
-Sales Qualifierは、送信した電子メールに対する返信のみを読み取り、残りの受信トレイには返信しません。 アクティブなエンゲージメント以外の添付ファイルや電子メールは保存しません。 保存されたログイン資格情報は暗号化されています。
+Marketo修飾子は、送信したメールに対する返信のみを読み取り、残りの受信トレイには返信しません。 アクティブなエンゲージメント以外の添付ファイルや電子メールは保存しません。 保存されたログイン資格情報は暗号化されています。
 
 ## CRM設定を開く
 
@@ -67,7 +71,7 @@ Sales Qualifierは、送信した電子メールに対する返信のみを読�
 | **[!UICONTROL 統合]** | **[!UICONTROL CRM接続]**、**[!UICONTROL ナレッジセンター]** |
 | **[!UICONTROL コンプライアンス]** | **[!UICONTROL メール設定]** |
 
-ナレッジセンターについては、[&#x200B; ナレッジセンタープレイブックの作成](admin-settings.md#knowledge-center)を参照してください。
+ナレッジセンターについては、[ ナレッジセンタープレイブックの作成](admin-settings.md#knowledge-center)を参照してください。
 
 ## CRM接続の管理
 
@@ -106,11 +110,11 @@ Sales Qualifierは、送信した電子メールに対する返信のみを読�
 
 1. **[!UICONTROL Connect]** （または編集時に&#x200B;**[!UICONTROL Save]**）を選択します。
 
-Sales Qualifierが資格情報を拒否した場合は、無効または期限切れの資格情報、権限の欠落、認識できないDynamics テナントなど、原因を特定します。 値を修正して、もう一度試してください。
+Marketo Qualifierが資格情報を拒否した場合、資格情報の無効または期限切れ、権限の欠落、認識できないDynamics テナントなど、原因を特定します。 値を修正して、もう一度試してください。
 
 >[!IMPORTANT]
 >
->電子メールでクライアントの秘密鍵を送信しないでください。 組織で承認済みのセキュアチャネルを使用して、Sales Qualifierに入力したユーザーと資格情報を共有します。
+>電子メールでクライアントの秘密鍵を送信しないでください。 組織で承認済みのセキュアチャネルを使用して、Marketo Qualifierに資格情報を入力するユーザー全員と資格情報を共有します。
 
 ### 接続の切断
 
@@ -123,14 +127,14 @@ Sales Qualifierが資格情報を拒否した場合は、無効または期限�
 
 ## CRM フィールドのマッピング（インバウンドマッピング） {#map-crm-fields-inbound-mapping}
 
-インバウンドマッピングでは、Sales Qualifierが読み込むCRM フィールドと、それらのフィールドが表示される場所を制御します。 フィールドはセクションにグループ化され、各セクションはエンティティタイプに属します。
+インバウンドマッピングでは、Marketo修飾子が読み込むCRM フィールドと、それらのフィールドが表示される場所を制御します。 フィールドはセクションにグループ化され、各セクションはエンティティタイプに属します。
 
-![&#x200B; インバウンドマッピング &#x200B;](assets/crm-conn-salesforce.png){width="800" zoomable="yes"}
+![ インバウンドマッピング ](assets/crm-conn-salesforce.png){width="800" zoomable="yes"}
 
 1. 接続されたCRM カードで、**[!UICONTROL 管理]**&#x200B;を選択します。
 1. 「**[!UICONTROL インバウンドマッピング]**」タブで、「**[!UICONTROL セクションを追加]**」を選択します。
 
-   ![&#x200B; セクションを追加](assets/crm-add-section.png){width="800" zoomable="yes"}
+   ![ セクションを追加](assets/crm-add-section.png){width="800" zoomable="yes"}
 
 1. **セクションを選択** ステップで、エンティティタイプを選択し、**[!UICONTROL 次]**&#x200B;を選択します。
 
@@ -138,7 +142,7 @@ Sales Qualifierが資格情報を拒否した場合は、無効または期限�
    | --- | --- |
    | **[!UICONTROL 見込み客]** | 見込み客の&#x200B;**[!UICONTROL 人物]** タブ。 |
    | **[!UICONTROL 取引先責任者]** | 連絡先レコードです。 |
-   | **[!UICONTROL アカウント]** | 「**[!UICONTROL アカウント]**」タブ。 [&#x200B; アカウント &#x200B;](accounts.md)を参照してください。 |
+   | **[!UICONTROL アカウント]** | 「**[!UICONTROL アカウント]**」タブ。 [ アカウント ](accounts.md)を参照してください。 |
    | **[!UICONTROL 商談]** | アカウントの商談の詳細。 |
 
 1. **[!UICONTROL セクション名]**&#x200B;と、オプションの&#x200B;**[!UICONTROL 説明]**&#x200B;を入力します。 次に、**[!UICONTROL 次へ]**&#x200B;を選択します。
@@ -155,23 +159,23 @@ Sales Qualifierが資格情報を拒否した場合は、無効または期限�
 
 ## アクティビティ同期の設定（アウトバウンドマッピング） {#configure-activity-sync-outbound-mapping}
 
-Activity syncは、CRMとMarketoにSales Qualifier アウトリーチアクティビティを書き込みます。 電子メールの送信、開封、クリック、返信アクティビティには、アウトバウンドワークフロー名が含まれます。 たとえば、代表者はCRMのアクティビティを利用し、マーケティング部門はリードスコアリングやエンゲージメントのタイムラインにAdobe Marketoのアクティビティを利用できます。
+Activity syncは、Marketo QualifierのアウトリーチアクティビティをCRMおよびMarketoに書き込みます。 電子メールの送信、開封、クリック、返信アクティビティには、アウトバウンドワークフロー名が含まれます。 たとえば、代表者はCRMのアクティビティを利用し、マーケティング部門はリードスコアリングやエンゲージメントのタイムラインにAdobe Marketoのアクティビティを利用できます。
 
 1. 接続されたCRM カードで、**[!UICONTROL 管理]**&#x200B;を選択します。
 1. 「**[!UICONTROL アウトバウンドマッピング]**」タブを開きます。
 1. **[!UICONTROL アクティビティの同期]**&#x200B;を有効にします。 設定はすぐに保存されます。
 
-アクティビティの同期がオフの場合、Sales Qualifierは引き続きインバウンド CRM データを使用しますが、アウトリーチアクティビティをCRMまたはMarketoに同期しません。
+アクティビティの同期がオフの場合、Marketo Qualifierはインバウンド CRM データを引き続き使用しますが、アウトリーチアクティビティをCRMまたはMarketoに同期しません。
 
 >[!NOTE]
 >
->アクティビティの同期には、CRMでの書き込みアクセス権が必要です。 必要な権限がない場合、スイッチは無効になり、Sales Qualifierから管理者に連絡するように求められます。 アクティビティへの書き込みアクセス権を付与するには、CRM管理者と協力します。
+>アクティビティの同期には、CRMでの書き込みアクセス権が必要です。 必要な権限がない場合は、スイッチが無効になり、Marketo修飾子から管理者に連絡するように求められます。 アクティビティへの書き込みアクセス権を付与するには、CRM管理者と協力します。
 
 ## マーケティングハイライトの設定 {#turn-on-marketo-engagement-filtering}
 
-マーケティングハイライトでは、担当者が電子メールの開封数やクリック数など、[!DNL Marketo]のライブのエンゲージメントによって見込み客を見つけ、優先順位を付けることができます。 [&#x200B; マーケティングハイライトによるフィルター](prospects.md#filter-by-marketing-highlights)を参照してください。
+マーケティングハイライトでは、担当者が電子メールの開封数やクリック数など、[!DNL Marketo]のライブのエンゲージメントによって見込み客を見つけ、優先順位を付けることができます。 [ マーケティングハイライトによるフィルター](prospects.md#filter-by-marketing-highlights)を参照してください。
 
-管理者は、関連する組織とサンドボックスの[!DNL Marketo]をSales Qualifierに接続する1回限りの設定を完了します。 この設定では、Adobe Developer ConsoleでAPI資格情報を作成し、[!DNL Marketo]でWebhookを設定し、そのWebhookをトリガーのスマートキャンペーンに追加します。 詳細な手順については、[&#x200B; マーケティングハイライトの設定](marketing-highlights-setup.md)を参照してください。
+管理者は、関連する組織とサンドボックスのMarketo Qualifierに[!DNL Marketo]を接続する1回限りの設定を完了します。 この設定では、Adobe Developer ConsoleでAPI資格情報を作成し、[!DNL Marketo]でWebhookを設定し、そのWebhookをトリガーのスマートキャンペーンに追加します。 詳細な手順については、[ マーケティングハイライトの設定](marketing-highlights-setup.md)を参照してください。
 
 マーケティングハイライトは、北米、EMEA、オーストラリアのすべての生産地域で利用できます。
 
@@ -188,16 +192,16 @@ Activity syncは、CRMとMarketoにSales Qualifier アウトリーチアクテ�
 
 設定とテンプレートは自動的に保存されます。
 
-見込客がリンクを選択すると、Sales Qualifierはその見込客への電子メールの送信を停止し、オプトアウトステータスを接続されたCRMに同期します。
+見込み客がリンクを選択すると、Marketo Qualifierはその見込み客へのメール送信を停止し、オプトアウトステータスを接続されたCRMに同期させます。
 
 ## CRM アクセス範囲
 
-Sales Qualifierは、必要なCRM エンティティを読み取り、定義されたデータセットのみを書き戻します。
+Marketo Qualifierは、必要なCRM エンティティを読み取り、定義されたデータセットのみを書き戻します。
 
 * **読み取り** - ユーザー、取引先責任者、所有者のマッピング、リード、アカウント、商談、およびアクティビティ。
-* **書き込み** - アウトリーチアクティビティのログ記録（[&#x200B; アクティビティ同期](#configure-activity-sync-outbound-mapping)がオンの場合）とオプトアウト状態。
+* **書き込み** - アウトリーチアクティビティのログ記録（[ アクティビティ同期](#configure-activity-sync-outbound-mapping)がオンの場合）とオプトアウト状態。
 
-CRM管理者は、SalesforceまたはDynamicsでAPI アクセスを準備します。 次に、Sales Qualifierの管理者が、CRMを接続し、インバウンドフィールドをマッピングして、アクティビティを同期するかどうかを選択します。 初期接続には読み取り専用アクセスが必要です。 アクティビティの同期とオプトアウトの書き戻しには、対応する書き込みアクセスが必要です。
+CRM管理者は、SalesforceまたはDynamicsでAPI アクセスを準備します。 次に、Marketo Qualifier管理者が、CRMを接続し、インバウンドフィールドをマッピングして、アクティビティを同期するかどうかを選択します。 初期接続には読み取り専用アクセスが必要です。 アクティビティの同期とオプトアウトの書き戻しには、対応する書き込みアクセスが必要です。
 
 >[!MORELIKETHIS]
 >
