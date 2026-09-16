@@ -18,7 +18,7 @@ ht-degree: 0%
 
 左側のナビゲーションで、**[!UICONTROL アウトバウンドパフォーマンス]**&#x200B;を選択して、チーム全体のアウトバウンドアクティビティと結果を追跡します。 ダッシュボードには、**[!UICONTROL 組織パフォーマンス]**&#x200B;と&#x200B;**[!UICONTROL キャンペーンパフォーマンス]**&#x200B;の2つのビューがあります。
 
-![ アウトバウンドパフォーマンス ](assets/outbound-performance.png){width="800" zoomable="yes"}
+![&#x200B; アウトバウンドパフォーマンス &#x200B;](assets/outbound-performance.png){width="800" zoomable="yes"}
 
 ## フィルターと期間
 
@@ -66,9 +66,9 @@ Marketo Qualifierでは、不在の返信やバウンスに個別のステータ
 * **キャンペーン指標のトレンド チャート**：選択した期間のキャンペーン KPI。
 * **[!UICONTROL キャンペーン]**&#x200B;のテーブル：各キャンペーンの電子メール、会議、電話、LinkedIn メッセージのアクティビティ。 キャンペーンの代表レベルの詳細を表示するには、その行を展開します。
 
-予約の生成方法については、[ ミーティング予約](outbound-workflows.md#meeting-booking)を参照してください。
+予約の生成方法については、[&#x200B; ミーティング予約](outbound-workflows.md#meeting-booking)を参照してください。
 
 >[!MORELIKETHIS]
 >
->* [ アウトバウンドワークフロー](outbound-workflows.md)
+>* [&#x200B; アウトバウンドワークフロー](outbound-workflows.md)
 >* [タスク](tasks.md)

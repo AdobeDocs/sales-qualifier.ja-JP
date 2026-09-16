@@ -31,13 +31,13 @@ ht-degree: 0%
 
 AdobeがMarketo Qualifierを組織にプロビジョニングした後、必要なユーザーグループを作成し、SalesforceまたはMicrosoft Dynamics 365を接続する必要があります。[!DNL Marketo]
 
-![Marketo修飾子のホームページ ](assets/homepage.png){width="800" zoomable="yes"}
+![Marketo修飾子のホームページ &#x200B;](assets/homepage.png){width="800" zoomable="yes"}
 
 ## ユーザーグループの設定
 
 Adobe Admin Consoleのユーザーグループは、Marketo修飾子へのアクセスを制御するために使用されます。 ユーザーがログインするには、両方のグループを作成する必要があります。
 
-グループの設定について詳しくは、[Adobe Admin Console ドキュメント ](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html)を参照してください。
+グループの設定について詳しくは、[Adobe Admin Console ドキュメント &#x200B;](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html)を参照してください。
 
 >[!PREREQUISITES]
 >
@@ -62,7 +62,7 @@ Adobe Admin Consoleのユーザーグループは、Marketo修飾子へのアク
 
 ### Marketo Qualifier administrators
 
-CRM接続、[ ナレッジセンター](admin-settings.md#knowledge-center)、およびグローバルメールオプトアウト設定を設定する管理者も、`Marketo Qualifier Admins` ユーザーグループに属している必要があります。
+CRM接続、[&#x200B; ナレッジセンター](admin-settings.md#knowledge-center)、およびグローバルメールオプトアウト設定を設定する管理者も、`Marketo Qualifier Admins` ユーザーグループに属している必要があります。
 
 1. Adobe Admin Consoleで、**[!UICONTROL Users]** > **[!UICONTROL User groups]** > **[!UICONTROL New user group]**&#x200B;を選択します。
 1. グループ名に「`Marketo Qualifier Admins`」と入力し、**[!UICONTROL 保存]**&#x200B;を選択します。
@@ -123,7 +123,7 @@ Salesforce システム管理者は、外部クライアントアプリ（接続
    * コールバック URL
    * Salesforce インスタンス URL
 
-手順は、ここで説明するのとは少し異なります。 詳しくは、[Salesforce ドキュメント ](https://help.salesforce.com/s/?language=en_US)を参照してください。
+手順は、ここで説明するのとは少し異なります。 詳しくは、[Salesforce ドキュメント &#x200B;](https://help.salesforce.com/s/?language=en_US)を参照してください。
 
 ### Salesforce インスタンス URLの検索
 
@@ -171,11 +171,11 @@ Microsoft Dynamics 365またはAzure管理者は、アプリケーションを�
 
 CRMを接続した後、インバウンドマッピングを設定して、Marketo Qualifier内に表示されるCRM フィールドを決定します。 接続されたCRM カードで、**[!UICONTROL 管理]**&#x200B;を選択して&#x200B;**[!UICONTROL インバウンドマッピング]**&#x200B;を開き、読み込むフィールドを持つ各エンティティタイプのセクションを追加します。
 
-インポートしたフィールドをフィルターとして使用できるようにする方法など、完全な手順については、[CRM フィールドのマッピング（インバウンドマッピング） ](integrations.md#map-crm-fields-inbound-mapping)を参照してください。
+インポートしたフィールドをフィルターとして使用できるようにする方法など、完全な手順については、[CRM フィールドのマッピング（インバウンドマッピング） &#x200B;](integrations.md#map-crm-fields-inbound-mapping)を参照してください。
 
 ## 次の手順
 
 >[!MORELIKETHIS]
 >
 >* [見込み客](prospects.md)
->* [ アウトバウンドワークフロー](outbound-workflows.md)
+>* [&#x200B; アウトバウンドワークフロー](outbound-workflows.md)

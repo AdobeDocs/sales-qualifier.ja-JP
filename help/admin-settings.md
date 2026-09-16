@@ -108,7 +108,7 @@ CRM同期ルールを設定すれば、セールス部門は、リード、取�
 
 **[!UICONTROL ナレッジセンター]**&#x200B;では、Account Qualification Agent （AQA）が販売資料にアクセスできます。 Marketo Qualifierは、これらの資料を利用して、調査、選定インサイト、自社の販売方法を反映したアウトリーチを生成します。 プレイブックを作成および管理できるのは管理者のみです。
 
-![ ナレッジセンター](assets/knowledge-center.png){width="800" zoomable="yes"}
+![&#x200B; ナレッジセンター](assets/knowledge-center.png){width="800" zoomable="yes"}
 
 1. 左側のナビゲーションで、**[!UICONTROL 管理]**&#x200B;を展開し、**[!UICONTROL 管理者設定]**&#x200B;を選択し、**[!UICONTROL ナレッジセンター]**&#x200B;を選択します
 1. u
@@ -124,8 +124,8 @@ CRM同期ルールを設定すれば、セールス部門は、リード、取�
 
 プレイブックの準備ができたら、担当者は次の2つの場所で使用できます。
 
-* **送信メールプロンプト** - タッチポイントプロンプトで、ドキュメントに名前を付け、使用するコンテキストを記述します。 例えば、`Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`と入力します。 [ タッチポイントの生成とレビュー](outbound-workflows.md#step-3-generate-and-review-touchpoints)を参照してください。
-* **AI チャット**：質問のナレッジセンターを参照してください。 例えば、`From the Knowledge Center, help me position our security solution for ABC Corp before tomorrow's call`と入力します。 [AI チャット ](ai-assistant.md)を参照してください。
+* **送信メールプロンプト** - タッチポイントプロンプトで、ドキュメントに名前を付け、使用するコンテキストを記述します。 例えば、`Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`と入力します。 [&#x200B; タッチポイントの生成とレビュー](outbound-workflows.md#step-3-generate-and-review-touchpoints)を参照してください。
+* **AI チャット**：質問のナレッジセンターを参照してください。 例えば、`From the Knowledge Center, help me position our security solution for ABC Corp before tomorrow's call`と入力します。 [AI チャット &#x200B;](ai-assistant.md)を参照してください。
 
 どちらの場合も、生成されたコンテンツは、一般的な調査ではなく、プレイブックのメッセージを反映します。
 
