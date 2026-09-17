@@ -1,23 +1,25 @@
 ---
-title: Sales Qualifierの見込み客
-description: CRMから見込み客リストを作成し、インポートして手動で追加する方法、見込み客をフィルタリングする方法、Sales Qualifierで見込み客の詳細を確認する方法を説明します。
+title: Marketo修飾子の見込み客
+description: CRMから見込み客リストを作成し、インポートして手動で追加する方法、見込み客をフィルタリングする方法、Adobe Marketo修飾子で見込み客の詳細を確認する方法を説明します。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c7f4e1b7adc4b3420ea5f16c3b426c40bb300d45
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 698
+source-wordcount: '701'
 ht-degree: 1%
-
 ---
-
 
 # 見込み客
 
@@ -34,9 +36,9 @@ ht-degree: 1%
 
 見込み客リストは、複数のソースからの人物を統合したものです。
 
-* **CRM見込み顧客**:Sales Qualifierは、接続されたユーザーに割り当てられたリードと連絡先を自動的に読み込みます。 [統合](integrations.md)を参照してください。
+* **CRM見込み顧客** - Adobe Marketoの選定では、接続されたユーザーに割り当てられたリードと連絡先が自動的に読み込まれます。 [統合](integrations.md)を参照してください。
 * **インポートされた見込み客** - CSV ファイルからインポートされた見込み客。
-* **手動で見込み客を追加** – 個々の見込み客がSales Qualifierで追加されました。
+* **手動で見込み客を追加** – 個々の見込み客がMarketo修飾子に追加されました。
 
 CRMから来ない見込み客を追加するには：
 
@@ -48,7 +50,7 @@ CRMから来ない見込み客を追加するには：
 
    * CSVを読み込む場合は、`firstname,email`形式のCSVをアップロードします。
      名前とメールアドレスが必要です。 姓はオプションです。 CSV テンプレートにはCRM リード ID列は含まれていませんが、読み込む前に列とその値をファイルに追加できます。 読み込みに失敗した場合は、エラーメッセージでフィールドまたは値を修正し、ファイルを再度アップロードします。
-     標準フィールドだけでなく、カスタムまたは追加のCSV フィールドもマッピングできます。 Sales Qualifierはこれらの値を各見込み客に保存し、[&#x200B; メール生成](outbound-workflows.md#step-5-add-prospects-and-start-email-generation)などのために、後で利用できるようにします。
+     標準フィールドだけでなく、カスタムまたは追加のCSV フィールドもマッピングできます。 Marketo Qualifierは、これらの値を各見込み客に保存し、[&#x200B; メール生成](outbound-workflows.md#step-5-add-prospects-and-start-email-generation)を含め、後で利用できるようにします。
    * 手動でユーザーを追加するには、そのユーザーの詳細をフォームに入力します。
 
 1. 「**[!UICONTROL 保存]**」を選択します。
@@ -79,7 +81,7 @@ CRMから来ない見込み客を追加するには：
 
 各見込み客には、最新の[!DNL Marketo] アクティビティと最近の履歴が表示されます。
 
-マーケティングハイライトは、すべての実稼動地域で使用できます。 管理者は、[!DNL Marketo]をSales Qualifierに接続する1回限りの設定を完了します。 [&#x200B; マーケティングハイライトの設定](integrations.md#turn-on-marketo-engagement-filtering)を参照してください。
+マーケティングハイライトは、すべての実稼動地域で使用できます。 管理者は、[!DNL Marketo]をMarketo Qualifierに接続する1回限りの設定を完了します。 [&#x200B; マーケティングハイライトの設定](integrations.md#turn-on-marketo-engagement-filtering)を参照してください。
 
 ## 見込み客の詳細の確認
 

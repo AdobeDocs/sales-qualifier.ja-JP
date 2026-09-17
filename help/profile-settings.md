@@ -1,21 +1,22 @@
 ---
 title: プロファイル設定を指定
-description: Sales Qualifier プロファイル設定でメール接続、署名、カレンダーの利用可能設定を行う方法について説明します。
+description: Adobe Marketo修飾子プロファイル設定で、メール接続、署名、カレンダーの利用可能設定を行う方法について説明します。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/juP3sddkmc-nSTcTEKGWolbCwNWDgSA0yr6XK1X-w94'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 394
+source-wordcount: '396'
 ht-degree: 3%
-
 ---
-
 
 # プロファイル設定
 
@@ -65,12 +66,12 @@ ht-degree: 3%
 
 ## カレンダーの可用性
 
-Sales Qualifierのカレンダーの空き状況は、次の2つの入力に基づいています。
+Adobe Marketo修飾子のカレンダーの空き状況は、次の2つの入力に基づいています。
 
 * OutlookやGmailなどの接続された作業カレンダー
 * **[!UICONTROL カレンダー設定]**&#x200B;の可用性とタイムスロットのルール
 
-Sales Qualifierは、接続されたカレンダーから、イベントの詳細ではなく、空き時間情報ステータスを読み取ります。 このステータスとルールを組み合わせることで、見込み客が予約できる時間枠を決定します。
+Marketo Qualifierは、接続されたカレンダーからイベントの詳細ではなく、空き時間情報を読み取ります。 このステータスとルールを組み合わせることで、見込み客が予約できる時間枠を決定します。
 
 次の項目を設定できます。
 

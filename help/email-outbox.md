@@ -1,20 +1,21 @@
 ---
 title: 電子メール送信トレイの確認
-description: 返信を含め、Sales Qualifierが自分に代わって送信したメールをメール送信ボックスで確認する方法について説明します。
+description: Adobe Marketo Qualifierが返信を含めて送信したメールを確認する方法については、メール送信ボックスを参照してください。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 328
+source-wordcount: '330'
 ht-degree: 0%
-
 ---
-
 
 # 電子メール送信トレイ
 
@@ -26,7 +27,7 @@ ht-degree: 0%
 
 **[!UICONTROL すべての電子メール]**&#x200B;のリストには、送信された電子メールごとに1行が含まれ、最初に最新の電子メールが表示されます。 各行には、受信者の名前、件名、送信日が表示されます。 件名のない電子メールには、_（件名なし）_&#x200B;が表示されます。 スクロールして古いメールを読み込みます。
 
-ページを開くと、Sales Qualifierは最初の電子メールを自動的に選択し、その内容が右側に表示されます。
+ページを開くと、Adobe Marketoの修飾子によって最初の電子メールが自動的に選択され、その内容が右側に表示されます。
 
 電子メールを送信していない場合、リストに&#x200B;_送信トレイが空です_&#x200B;と表示されます。 アウトバウンドワークフローを通じてメールを送信またはスケジュールすると、ここに表示されます。
 
@@ -38,7 +39,7 @@ ht-degree: 0%
 * **件名とアウトバウンドワークフロー** – 件名、メールを送信した[&#x200B; アウトバウンドワークフロー](outbound-workflows.md)の名前、アウトバウンドワークフローのステータス。 アウトバウンドワークフロー名を選択して開きます。
 * **会話** – 送信された電子メールとスレッド内の返信。 各エントリは、メッセージが送信または受信されたかどうかを識別し、タイムスタンプを含みます。
 
-メールは、パーソナライズされたコンテンツを含め、送信された通りにレンダリングされます。 メッセージの本文が使用できない場合、Sales Qualifierには、代わりに短い&#x200B;_メールコンテンツが使用できない_&#x200B;というメモが表示されます。
+メールは、パーソナライズされたコンテンツを含め、送信された通りにレンダリングされます。 メッセージの本文が使用できない場合、Marketo修飾子は、代わりに&#x200B;_メールコンテンツが使用できない_&#x200B;短いメモを表示します。
 
 >[!NOTE]
 >

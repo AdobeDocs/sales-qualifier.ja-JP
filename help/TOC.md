@@ -1,14 +1,12 @@
 ---
-user-guide-title: 販売修飾子
-user-guide-description: Sales Qualifierを使用して、B2B営業部門における見込み顧客のクオリフィケーション、アウトリーチ、バイヤーエンゲージメントを自動化する方法を紹介します。
-source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
+user-guide-title: Adobe Marketo修飾子
+user-guide-description: Adobe Marketo Qualifierを使用して、B2B セールス部門の見込み顧客のクオリフィケーション、アウトリーチ、バイヤーエンゲージメントを自動化する方法を紹介します。
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 27%
-
+source-wordcount: '51'
+ht-degree: 21%
 ---
-
-# Sales Qualifier ガイド {#using}
+# Adobe Marketo選定ガイド {#using}
 
 + [概要](home.md)
 + [リリースノート](release-notes.md)

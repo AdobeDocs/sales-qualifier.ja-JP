@@ -1,32 +1,35 @@
 ---
-title: Sales Qualifierの概要
-description: Sales Qualifierは、見込み顧客の絞り込み、アウトリーチ、B2B営業部門へのバイヤーエンゲージメントを自動化するAIを活用したアプリです。その詳細をご確認ください。
+title: Adobe Marketo修飾子の概要
+description: Adobe Marketo Qualifierは、AIを活用して、B2B営業部門への見込み顧客の絞り込み、アウトリーチ、バイヤーエンゲージメントを自動化するアプリです。その詳細をご確認ください。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/4IsAlgFBxddHCz0-CLCDXPCHI7m3motiXhgCR6MZq0k'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 391
+source-wordcount: '394'
 ht-degree: 21%
-
 ---
 
+# Adobe Marketo修飾子
 
-# 販売修飾子
-
-Adobe Sales Qualifierは、見込み顧客の絞り込み、アウトリーチ、クロスチャネルのバイヤーエンゲージメントを、Business development representatives （BDR）向けに自動化する、AIを活用したアプリケーションです。 Account Qualification Agentは、アカウントと見込み顧客を分析し、次のステップに進むための準備ができているアカウントに優先順位を付け、CRM データにもとづいてパーソナライズされたアウトリーチを作成します。
+Adobe Marketo Qualifierは、見込み顧客の絞り込み、アウトリーチ、クロスチャネルのバイヤーエンゲージメントを、Business development representatives （BDR）向けに自動化する、AIを活用したアプリケーションです。 Account Qualification Agentは、アカウントと見込み顧客を分析し、次のステップに進むための準備ができているアカウントに優先順位を付け、CRM データにもとづいてパーソナライズされたアウトリーチを作成します。
 
 BDRは、ブラウザーとメールのプラグインを使用して、CRMやOutlook内で直接ビジネスインテリジェンスにアクセスできます。
 
-## Sales Qualifierで可能なこと
+## Marketo Qualifierでできること
 
 * AIが生成したアクティビティの概要とシグナルベースの優先順位付けにより、**見込み顧客とアカウントの優先順位付け**。
 * **AIがケイデンスを提案し、各見込客にパーソナライズされたメールを作成する、目標主導型のアウトバウンドワークフロー**&#x200B;を構築します。

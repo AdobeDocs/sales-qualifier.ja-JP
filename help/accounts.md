@@ -1,22 +1,24 @@
 ---
-title: Sales Qualifierのアカウント
-description: AIを利用したリサーチ、最新のニュース、機会、最もエンゲージメントの高い連絡先など、Sales Qualifierのアカウントインテリジェンスを確認して、アウトリーチの優先順位を決定する方法を説明します。
+title: Adobe Marketo修飾子のアカウント
+description: Adobe Marketo Qualifierでアカウントインテリジェンスを確認する方法について説明します。AIを利用した調査、最近のニュース、機会、最もエンゲージメントの高いコンタクトなどが含まれ、アウトリーチの優先順位を決定します。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: '646'
 ht-degree: 0%
-
 ---
-
 
 # アカウント
 
@@ -31,7 +33,7 @@ ht-degree: 0%
 
 ![人物タブとアカウントタブを含む見込み客の詳細ページ &#x200B;](./assets/account-home.png){width="800" zoomable="yes"}
 
-Sales Qualifierは、見込み客のCRM レコードからアカウントを特定します。 そのアカウントに関連付けられたあらゆる見込み客から、同じアカウントビューを利用できます。 Sales Qualifierがアカウントと一致しない場合、タブには&#x200B;_アカウントが見つかりません_&#x200B;と表示されます。
+Adobe Marketo Qualifierは、見込み客のCRM レコードからアカウントを識別します。 そのアカウントに関連付けられたあらゆる見込み客から、同じアカウントビューを利用できます。 Marketo Qualifierがアカウントと一致しない場合、タブに「_アカウントが見つかりません_」と表示されます。
 
 >[!NOTE]
 >

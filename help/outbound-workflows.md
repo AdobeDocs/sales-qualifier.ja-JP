@@ -1,25 +1,29 @@
 ---
 title: アウトバウンドワークフローの作成と管理
-description: Sales QualifierでAI生成のアウトバウンドワークフローを作成、共有、レビュー、管理し、目標主導のアウトリーチケイデンスを実行する方法を説明します。
+description: Adobe Marketo Qualifierを使用して、AI生成のアウトバウンドワークフローを作成、共有、レビュー、管理し、目標主導型のアウトリーチケイデンスを実行する方法を説明します。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/n3FbuiM2zF9QSqaKx1bhBSdbsf-w7vEsEGjCQTBo3g4'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 2062
+source-wordcount: '2064'
 ht-degree: 0%
-
 ---
-
 
 # アウトバウンドワークフロー
 
@@ -155,7 +159,7 @@ AIは、選択した見込み客とメールの顧客接点ごとにパーソナ
 
 ## 生成されたメールのレビューと調整
 
-生成が完了すると、アウトバウンドワークフローの詳細ビューでドラフトのレビューを求めるメッセージが表示されます。 Sales Qualifierでは、承認するまで電子メールは配信されません。
+生成が完了すると、アウトバウンドワークフローの詳細ビューでドラフトのレビューを求めるメッセージが表示されます。 Adobe Marketo Qualifierは、承認するまで電子メールを送信しません。
 
 1. アウトバウンドワークフローの詳細ビューで、バナーの「**[!UICONTROL 下書きを確認]**」を選択します。
 1. **[!UICONTROL タッチポイントのレビュー]** ステップには、次の2つのタブがあります。
@@ -234,10 +238,10 @@ AIは、選択した見込み客とメールの顧客接点ごとにパーソナ
 
 ## ミーティング予約
 
-カレンダーを接続すると、Sales Qualifierに個人の予約リンクが生成され、見込み客はカレンダーを使用して時間を予約できます。
+カレンダーを連携すると、Marketo Qualifierにより個人の予約リンクが生成され、見込み客はスケジュール設定に利用できるようになります。
 
 * **予約リンク**-[&#x200B; プロファイル設定](profile-settings.md)でカレンダー接続と利用状況を設定します。 予約リンクを電子メール署名に追加して、アウトバウンドメールに表示されるようにします。
-* **ケイデンスの配置** - Sales Qualifierは、関連するポイントに予約リンクをケイデンスで挿入します。 配置を変更することもできます。
+* **ケイデンスの配置** - Marketoの修飾子は、関連するポイントに予約リンクをケイデンスに挿入します。 配置を変更することもできます。
 * **予約の一時停止** – 見込み客が会議を予約すると、**[!UICONTROL 会議の予約の一時停止]**&#x200B;がさらにフォローアップを停止します。 [手順4：送信ワークフロー設定](#step-4-configure-outbound-workflow-settings)を参照してください。
 
 [&#x200B; アウトバウンドパフォーマンス &#x200B;](performance.md) ページで予約結果を追跡します。

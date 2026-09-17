@@ -1,16 +1,14 @@
 ---
-title: Sales Qualifier リリースノート
-description: Sale Qualifierの新機能について説明します。
+title: Adobe Marketo Qualifier リリースノート
+description: Adobe Marketo Qualifierの新機能について説明します。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-source-git-commit: 425969ba4795005df9e307f244c1612f1d3f15b7
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '310'
 ht-degree: 12%
-
 ---
-
-# Sales Qualifier リリースノート
+# Adobe Marketo Qualifier リリースノート
 
 ## 09-08-2026
 
@@ -23,11 +21,11 @@ ht-degree: 12%
 * 生成されたメールは、インポートした追加の見込み客データを使用し、見込み客の言語でネイティブに作成できます。 [詳細情報](outbound-workflows.md#step-5-add-prospects-and-start-email-generation)。
 * アウトバウンドパフォーマンスでは、デフォルトで開封率とクリック率が表示され、未加工の数と組織レベルでの見込客数の切り替えが表示されます。 [詳細情報](performance.md)。
 * CRM同期ルールは、見込み客がアウトバウンドワークフローを通過すると、CRM ステータスを自動的に更新します。 [詳細情報](admin-settings.md#configure-crm-sync-rules)。
-* Sales Qualifier、[!DNL Marketo]、[!DNL Adobe Journey Optimizer B2B Edition]のデータで、AI チャットに関する質問をすることができます。 [詳細情報](ai-assistant.md#ask-ai-chat-across-your-connected-data)。
+* Marketo Qualifier、[!DNL Marketo]、[!DNL Adobe Journey Optimizer B2B Edition]のデータで、AI チャットに関する質問を行います。 [詳細情報](ai-assistant.md#ask-ai-chat-across-your-connected-data)。
 
 ## 08-17-2026
 
-[!DNL Sales Qualifier]はスタンドアロン アプリケーションとして利用できるようになりました。 MarketoとAdobe Journey Optimizer B2Bに対応しています。
+[!DNL Marketo Qualifier]はスタンドアロン アプリケーションとして利用できるようになりました。 MarketoとAdobe Journey Optimizer B2Bに対応しています。
 
 このリリースには次のものが含まれます。
 
